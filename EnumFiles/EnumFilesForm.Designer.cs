@@ -170,6 +170,7 @@
             resources.ApplyResources(this.BtnEdit, "BtnEdit");
             this.BtnEdit.Name = "BtnEdit";
             this.BtnEdit.UseVisualStyleBackColor = true;
+            this.BtnEdit.Click += new System.EventHandler(this.BtnEdit_Click);
             // 
             // textBox1
             // 
@@ -209,12 +210,15 @@
             resources.ApplyResources(this.BtnRun, "BtnRun");
             this.BtnRun.Name = "BtnRun";
             this.BtnRun.UseVisualStyleBackColor = true;
+            this.BtnRun.Click += new System.EventHandler(this.BtnRun_Click);
             // 
             // BtnCancel
             // 
             resources.ApplyResources(this.BtnCancel, "BtnCancel");
+            this.BtnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.UseVisualStyleBackColor = true;
+            this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
             // CheckShowResults
             // 
@@ -224,8 +228,10 @@
             // 
             // EnumFilesForm
             // 
+            this.AcceptButton = this.BtnRun;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.BtnCancel;
             this.Controls.Add(SearchConditionGroup);
             this.Controls.Add(ButtonPanel);
             this.Name = "EnumFilesForm";

@@ -25,5 +25,22 @@ namespace EnumFiles
         {
 
         }
+
+        private void BtnEdit_Click(object sender, EventArgs e)
+        {
+            var dlg = new SearchOptionsForm();
+            var ret = dlg.ShowDialog(this);
+            MessageBox.Show(ret.ToString());
+        }
+
+        private void BtnCancel_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void BtnRun_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Run");
+        }
     }
 }

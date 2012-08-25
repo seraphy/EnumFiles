@@ -288,8 +288,158 @@
   <metadata name="PatternSelectionGroup.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="SearchConditionTableLayout.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SearchConditionTableLayout.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;PatternSelectionGroup.Name" xml:space="preserve">
+    <value>PatternSelectionGroup</value>
+  </data>
+  <data name="&gt;&gt;PatternSelectionGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PatternSelectionGroup.Parent" xml:space="preserve">
+    <value>SearchConditionGroup</value>
+  </data>
+  <data name="&gt;&gt;PatternSelectionGroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PatternSelectionGroup.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="BtnSaveCond" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="BtnRemoveCond" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="ComboCondPattern" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,60,Absolute,60" /&gt;&lt;Rows Styles="Percent,100,Absolute,25" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;SearchConditionTableLayout.Name" xml:space="preserve">
+    <value>SearchConditionTableLayout</value>
+  </data>
+  <data name="&gt;&gt;SearchConditionTableLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SearchConditionTableLayout.Parent" xml:space="preserve">
+    <value>SearchConditionGroup</value>
+  </data>
+  <data name="&gt;&gt;SearchConditionTableLayout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SearchConditionTableLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="LblDirectory" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ComboDirectory" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="BtnBrowse" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="LblFileName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ComboFileName" Row="1" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="ChkRegularExpression" Row="2" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="LblOtherConditions" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="BtnEdit" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="textBox1" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="LblOutputFormat" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ComboOutputFormat" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="BtnEditFormat" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,80,Percent,100,Absolute,60" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,Percent,100,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="SearchConditionGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="SearchConditionGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="SearchConditionGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="SearchConditionGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="SearchConditionGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 174</value>
+  </data>
+  <data name="SearchConditionGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SearchConditionGroup.Text" xml:space="preserve">
+    <value>Search conditions and Output format</value>
+  </data>
+  <data name="&gt;&gt;SearchConditionGroup.Name" xml:space="preserve">
+    <value>SearchConditionGroup</value>
+  </data>
+  <data name="&gt;&gt;SearchConditionGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SearchConditionGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SearchConditionGroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="PatternSelectionGroup.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="PatternSelectionGroup.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BtnSaveCond.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BtnRemoveCond.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ComboCondPattern.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="PatternSelectionGroup.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveCond.Name" xml:space="preserve">
+    <value>BtnSaveCond</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveCond.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveCond.Parent" xml:space="preserve">
+    <value>PatternSelectionGroup</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveCond.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveCond.Name" xml:space="preserve">
+    <value>BtnRemoveCond</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveCond.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveCond.Parent" xml:space="preserve">
+    <value>PatternSelectionGroup</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveCond.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ComboCondPattern.Name" xml:space="preserve">
+    <value>ComboCondPattern</value>
+  </data>
+  <data name="&gt;&gt;ComboCondPattern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboCondPattern.Parent" xml:space="preserve">
+    <value>PatternSelectionGroup</value>
+  </data>
+  <data name="&gt;&gt;ComboCondPattern.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PatternSelectionGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="PatternSelectionGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 17</value>
+  </data>
+  <data name="PatternSelectionGroup.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PatternSelectionGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 25</value>
+  </data>
+  <data name="PatternSelectionGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PatternSelectionGroup.Name" xml:space="preserve">
+    <value>PatternSelectionGroup</value>
+  </data>
+  <data name="&gt;&gt;PatternSelectionGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PatternSelectionGroup.Parent" xml:space="preserve">
+    <value>SearchConditionGroup</value>
+  </data>
+  <data name="&gt;&gt;PatternSelectionGroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PatternSelectionGroup.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="BtnSaveCond" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="BtnRemoveCond" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="ComboCondPattern" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,60,Absolute,60" /&gt;&lt;Rows Styles="Percent,100,Absolute,25" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="BtnSaveCond.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -378,44 +528,164 @@
   <data name="&gt;&gt;ComboCondPattern.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="PatternSelectionGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="PatternSelectionGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 17</value>
-  </data>
-  <data name="PatternSelectionGroup.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="PatternSelectionGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>368, 25</value>
-  </data>
-  <data name="PatternSelectionGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;PatternSelectionGroup.Name" xml:space="preserve">
-    <value>PatternSelectionGroup</value>
-  </data>
-  <data name="&gt;&gt;PatternSelectionGroup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PatternSelectionGroup.Parent" xml:space="preserve">
-    <value>SearchConditionGroup</value>
-  </data>
-  <data name="&gt;&gt;PatternSelectionGroup.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="PatternSelectionGroup.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="BtnSaveCond" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="BtnRemoveCond" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="ComboCondPattern" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,Absolute,60,Absolute,60" /&gt;&lt;Rows Styles="Percent,100,Absolute,25" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
   <metadata name="SearchConditionTableLayout.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <metadata name="SearchConditionTableLayout.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="ComboDirectory.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BtnBrowse.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ComboFileName.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ChkRegularExpression.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BtnEdit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="textBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ComboOutputFormat.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BtnEditFormat.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="SearchConditionTableLayout.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;ComboDirectory.Name" xml:space="preserve">
+    <value>ComboDirectory</value>
+  </data>
+  <data name="&gt;&gt;ComboDirectory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboDirectory.Parent" xml:space="preserve">
+    <value>SearchConditionTableLayout</value>
+  </data>
+  <data name="&gt;&gt;ComboDirectory.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtnBrowse.Name" xml:space="preserve">
+    <value>BtnBrowse</value>
+  </data>
+  <data name="&gt;&gt;BtnBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnBrowse.Parent" xml:space="preserve">
+    <value>SearchConditionTableLayout</value>
+  </data>
+  <data name="&gt;&gt;BtnBrowse.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ComboFileName.Name" xml:space="preserve">
+    <value>ComboFileName</value>
+  </data>
+  <data name="&gt;&gt;ComboFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboFileName.Parent" xml:space="preserve">
+    <value>SearchConditionTableLayout</value>
+  </data>
+  <data name="&gt;&gt;ComboFileName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ChkRegularExpression.Name" xml:space="preserve">
+    <value>ChkRegularExpression</value>
+  </data>
+  <data name="&gt;&gt;ChkRegularExpression.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkRegularExpression.Parent" xml:space="preserve">
+    <value>SearchConditionTableLayout</value>
+  </data>
+  <data name="&gt;&gt;ChkRegularExpression.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;BtnEdit.Name" xml:space="preserve">
+    <value>BtnEdit</value>
+  </data>
+  <data name="&gt;&gt;BtnEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnEdit.Parent" xml:space="preserve">
+    <value>SearchConditionTableLayout</value>
+  </data>
+  <data name="&gt;&gt;BtnEdit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>SearchConditionTableLayout</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ComboOutputFormat.Name" xml:space="preserve">
+    <value>ComboOutputFormat</value>
+  </data>
+  <data name="&gt;&gt;ComboOutputFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboOutputFormat.Parent" xml:space="preserve">
+    <value>SearchConditionTableLayout</value>
+  </data>
+  <data name="&gt;&gt;ComboOutputFormat.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;BtnEditFormat.Name" xml:space="preserve">
+    <value>BtnEditFormat</value>
+  </data>
+  <data name="&gt;&gt;BtnEditFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnEditFormat.Parent" xml:space="preserve">
+    <value>SearchConditionTableLayout</value>
+  </data>
+  <data name="&gt;&gt;BtnEditFormat.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="SearchConditionTableLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="SearchConditionTableLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 17</value>
+  </data>
+  <data name="SearchConditionTableLayout.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="SearchConditionTableLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 152</value>
+  </data>
+  <data name="SearchConditionTableLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SearchConditionTableLayout.Name" xml:space="preserve">
+    <value>SearchConditionTableLayout</value>
+  </data>
+  <data name="&gt;&gt;SearchConditionTableLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SearchConditionTableLayout.Parent" xml:space="preserve">
+    <value>SearchConditionGroup</value>
+  </data>
+  <data name="&gt;&gt;SearchConditionTableLayout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SearchConditionTableLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="LblDirectory" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ComboDirectory" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="BtnBrowse" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="LblFileName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ComboFileName" Row="1" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="ChkRegularExpression" Row="2" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="LblOtherConditions" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="BtnEdit" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="textBox1" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="LblOutputFormat" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ComboOutputFormat" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="BtnEditFormat" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,80,Percent,100,Absolute,60" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,Percent,100,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="ComboDirectory.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -653,69 +923,6 @@
   </data>
   <data name="&gt;&gt;BtnEditFormat.ZOrder" xml:space="preserve">
     <value>11</value>
-  </data>
-  <data name="SearchConditionTableLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="SearchConditionTableLayout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 17</value>
-  </data>
-  <data name="SearchConditionTableLayout.RowCount" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="SearchConditionTableLayout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>368, 152</value>
-  </data>
-  <data name="SearchConditionTableLayout.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;SearchConditionTableLayout.Name" xml:space="preserve">
-    <value>SearchConditionTableLayout</value>
-  </data>
-  <data name="&gt;&gt;SearchConditionTableLayout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SearchConditionTableLayout.Parent" xml:space="preserve">
-    <value>SearchConditionGroup</value>
-  </data>
-  <data name="&gt;&gt;SearchConditionTableLayout.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="SearchConditionTableLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="LblDirectory" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ComboDirectory" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="BtnBrowse" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="LblFileName" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ComboFileName" Row="1" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="ChkRegularExpression" Row="2" RowSpan="1" Column="1" ColumnSpan="2" /&gt;&lt;Control Name="LblOtherConditions" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="BtnEdit" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="textBox1" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="LblOutputFormat" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ComboOutputFormat" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="BtnEditFormat" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,80,Percent,100,Absolute,60" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,Percent,100,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="SearchConditionGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="SearchConditionGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="SearchConditionGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="SearchConditionGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="SearchConditionGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>378, 174</value>
-  </data>
-  <data name="SearchConditionGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="SearchConditionGroup.Text" xml:space="preserve">
-    <value>Search conditions and Output format</value>
-  </data>
-  <data name="&gt;&gt;SearchConditionGroup.Name" xml:space="preserve">
-    <value>SearchConditionGroup</value>
-  </data>
-  <data name="&gt;&gt;SearchConditionGroup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SearchConditionGroup.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;SearchConditionGroup.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <metadata name="ButtonPanel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
