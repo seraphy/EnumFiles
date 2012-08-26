@@ -38,25 +38,34 @@
             System.Windows.Forms.Label lblStart;
             System.Windows.Forms.Label LblEnd;
             System.Windows.Forms.GroupBox SizeGroup;
-            System.Windows.Forms.GroupBox AttributesGroup;
-            System.Windows.Forms.GroupBox ExcludeGroup;
             System.Windows.Forms.TableLayoutPanel FileSizeLayout;
             System.Windows.Forms.Label LblMinSize;
             System.Windows.Forms.Label LblMaxSize;
+            System.Windows.Forms.GroupBox AttributesGroup;
+            System.Windows.Forms.GroupBox ExcludeGroup;
+            System.Windows.Forms.TableLayoutPanel AttributesLayout;
             this.DtStartLastModified = new System.Windows.Forms.DateTimePicker();
             this.DtStartCreation = new System.Windows.Forms.DateTimePicker();
             this.DtStartLastAccess = new System.Windows.Forms.DateTimePicker();
             this.DtEndLastModified = new System.Windows.Forms.DateTimePicker();
             this.DtEndCreation = new System.Windows.Forms.DateTimePicker();
             this.DtEndLastAccess = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.FileMinSize = new EnumFilesFormControls.FileSizePicker();
+            this.FileMaxSize = new EnumFilesFormControls.FileSizePicker();
+            this.ExcludesTextArea = new System.Windows.Forms.TextBox();
             this.ButtonPanel = new System.Windows.Forms.Panel();
             this.InnerButtonPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnOK = new System.Windows.Forms.Button();
             this.BtnCancel = new System.Windows.Forms.Button();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
-            this.FileMinSize = new EnumFilesFormControls.FileSizePicker();
-            this.FileMaxSize = new EnumFilesFormControls.FileSizePicker();
+            this.CheckReadOnly = new System.Windows.Forms.CheckBox();
+            this.CheckArchive = new System.Windows.Forms.CheckBox();
+            this.CheckHidden = new System.Windows.Forms.CheckBox();
+            this.CheckSystem = new System.Windows.Forms.CheckBox();
+            this.CheckTemporary = new System.Windows.Forms.CheckBox();
+            this.CheckSparseFile = new System.Windows.Forms.CheckBox();
+            this.CheckCompressed = new System.Windows.Forms.CheckBox();
+            this.CheckEncrypted = new System.Windows.Forms.CheckBox();
             ContentLayout = new System.Windows.Forms.TableLayoutPanel();
             DatesGroup = new System.Windows.Forms.GroupBox();
             DatesGrid = new System.Windows.Forms.TableLayoutPanel();
@@ -66,20 +75,23 @@
             lblStart = new System.Windows.Forms.Label();
             LblEnd = new System.Windows.Forms.Label();
             SizeGroup = new System.Windows.Forms.GroupBox();
-            AttributesGroup = new System.Windows.Forms.GroupBox();
-            ExcludeGroup = new System.Windows.Forms.GroupBox();
             FileSizeLayout = new System.Windows.Forms.TableLayoutPanel();
             LblMinSize = new System.Windows.Forms.Label();
             LblMaxSize = new System.Windows.Forms.Label();
+            AttributesGroup = new System.Windows.Forms.GroupBox();
+            ExcludeGroup = new System.Windows.Forms.GroupBox();
+            AttributesLayout = new System.Windows.Forms.TableLayoutPanel();
             ContentLayout.SuspendLayout();
             DatesGroup.SuspendLayout();
             DatesGrid.SuspendLayout();
             SizeGroup.SuspendLayout();
+            FileSizeLayout.SuspendLayout();
+            AttributesGroup.SuspendLayout();
             ExcludeGroup.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
             this.InnerButtonPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
-            FileSizeLayout.SuspendLayout();
+            AttributesLayout.SuspendLayout();
             this.SuspendLayout();
             // 
             // ContentLayout
@@ -195,56 +207,6 @@
             SizeGroup.Name = "SizeGroup";
             SizeGroup.TabStop = false;
             // 
-            // AttributesGroup
-            // 
-            resources.ApplyResources(AttributesGroup, "AttributesGroup");
-            AttributesGroup.Name = "AttributesGroup";
-            AttributesGroup.TabStop = false;
-            // 
-            // ExcludeGroup
-            // 
-            ExcludeGroup.Controls.Add(this.textBox1);
-            resources.ApplyResources(ExcludeGroup, "ExcludeGroup");
-            ExcludeGroup.Name = "ExcludeGroup";
-            ExcludeGroup.TabStop = false;
-            // 
-            // textBox1
-            // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
-            // 
-            // ButtonPanel
-            // 
-            this.ButtonPanel.Controls.Add(this.InnerButtonPanel);
-            resources.ApplyResources(this.ButtonPanel, "ButtonPanel");
-            this.ButtonPanel.Name = "ButtonPanel";
-            // 
-            // InnerButtonPanel
-            // 
-            this.InnerButtonPanel.Controls.Add(this.BtnOK);
-            this.InnerButtonPanel.Controls.Add(this.BtnCancel);
-            resources.ApplyResources(this.InnerButtonPanel, "InnerButtonPanel");
-            this.InnerButtonPanel.Name = "InnerButtonPanel";
-            // 
-            // BtnOK
-            // 
-            this.BtnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            resources.ApplyResources(this.BtnOK, "BtnOK");
-            this.BtnOK.Name = "BtnOK";
-            this.BtnOK.UseVisualStyleBackColor = true;
-            // 
-            // BtnCancel
-            // 
-            this.BtnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            resources.ApplyResources(this.BtnCancel, "BtnCancel");
-            this.BtnCancel.Name = "BtnCancel";
-            this.BtnCancel.UseVisualStyleBackColor = true;
-            // 
-            // fileSystemWatcher1
-            // 
-            this.fileSystemWatcher1.EnableRaisingEvents = true;
-            this.fileSystemWatcher1.SynchronizingObject = this;
-            // 
             // FileSizeLayout
             // 
             resources.ApplyResources(FileSizeLayout, "FileSizeLayout");
@@ -280,6 +242,141 @@
             this.FileMaxSize.SelectedUnitIndex = -1;
             this.FileMaxSize.UnitItems = null;
             // 
+            // AttributesGroup
+            // 
+            AttributesGroup.Controls.Add(AttributesLayout);
+            resources.ApplyResources(AttributesGroup, "AttributesGroup");
+            AttributesGroup.Name = "AttributesGroup";
+            AttributesGroup.TabStop = false;
+            // 
+            // ExcludeGroup
+            // 
+            ExcludeGroup.Controls.Add(this.ExcludesTextArea);
+            resources.ApplyResources(ExcludeGroup, "ExcludeGroup");
+            ExcludeGroup.Name = "ExcludeGroup";
+            ExcludeGroup.TabStop = false;
+            // 
+            // ExcludesTextArea
+            // 
+            resources.ApplyResources(this.ExcludesTextArea, "ExcludesTextArea");
+            this.ExcludesTextArea.Name = "ExcludesTextArea";
+            // 
+            // ButtonPanel
+            // 
+            this.ButtonPanel.Controls.Add(this.InnerButtonPanel);
+            resources.ApplyResources(this.ButtonPanel, "ButtonPanel");
+            this.ButtonPanel.Name = "ButtonPanel";
+            // 
+            // InnerButtonPanel
+            // 
+            this.InnerButtonPanel.Controls.Add(this.BtnOK);
+            this.InnerButtonPanel.Controls.Add(this.BtnCancel);
+            resources.ApplyResources(this.InnerButtonPanel, "InnerButtonPanel");
+            this.InnerButtonPanel.Name = "InnerButtonPanel";
+            // 
+            // BtnOK
+            // 
+            this.BtnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
+            resources.ApplyResources(this.BtnOK, "BtnOK");
+            this.BtnOK.Name = "BtnOK";
+            this.BtnOK.UseVisualStyleBackColor = true;
+            // 
+            // BtnCancel
+            // 
+            this.BtnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            resources.ApplyResources(this.BtnCancel, "BtnCancel");
+            this.BtnCancel.Name = "BtnCancel";
+            this.BtnCancel.UseVisualStyleBackColor = true;
+            // 
+            // fileSystemWatcher1
+            // 
+            this.fileSystemWatcher1.EnableRaisingEvents = true;
+            this.fileSystemWatcher1.SynchronizingObject = this;
+            // 
+            // AttributesLayout
+            // 
+            resources.ApplyResources(AttributesLayout, "AttributesLayout");
+            AttributesLayout.Controls.Add(this.CheckReadOnly, 0, 0);
+            AttributesLayout.Controls.Add(this.CheckArchive, 1, 0);
+            AttributesLayout.Controls.Add(this.CheckHidden, 2, 0);
+            AttributesLayout.Controls.Add(this.CheckSystem, 3, 0);
+            AttributesLayout.Controls.Add(this.CheckTemporary, 0, 1);
+            AttributesLayout.Controls.Add(this.CheckSparseFile, 1, 1);
+            AttributesLayout.Controls.Add(this.CheckCompressed, 2, 1);
+            AttributesLayout.Controls.Add(this.CheckEncrypted, 3, 1);
+            AttributesLayout.Name = "AttributesLayout";
+            // 
+            // CheckReadOnly
+            // 
+            resources.ApplyResources(this.CheckReadOnly, "CheckReadOnly");
+            this.CheckReadOnly.Checked = true;
+            this.CheckReadOnly.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.CheckReadOnly.Name = "CheckReadOnly";
+            this.CheckReadOnly.ThreeState = true;
+            this.CheckReadOnly.UseVisualStyleBackColor = true;
+            // 
+            // CheckArchive
+            // 
+            resources.ApplyResources(this.CheckArchive, "CheckArchive");
+            this.CheckArchive.Checked = true;
+            this.CheckArchive.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.CheckArchive.Name = "CheckArchive";
+            this.CheckArchive.ThreeState = true;
+            this.CheckArchive.UseVisualStyleBackColor = true;
+            // 
+            // CheckHidden
+            // 
+            resources.ApplyResources(this.CheckHidden, "CheckHidden");
+            this.CheckHidden.Checked = true;
+            this.CheckHidden.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.CheckHidden.Name = "CheckHidden";
+            this.CheckHidden.ThreeState = true;
+            this.CheckHidden.UseVisualStyleBackColor = true;
+            // 
+            // CheckSystem
+            // 
+            resources.ApplyResources(this.CheckSystem, "CheckSystem");
+            this.CheckSystem.Checked = true;
+            this.CheckSystem.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.CheckSystem.Name = "CheckSystem";
+            this.CheckSystem.ThreeState = true;
+            this.CheckSystem.UseVisualStyleBackColor = true;
+            // 
+            // CheckTemporary
+            // 
+            resources.ApplyResources(this.CheckTemporary, "CheckTemporary");
+            this.CheckTemporary.Checked = true;
+            this.CheckTemporary.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.CheckTemporary.Name = "CheckTemporary";
+            this.CheckTemporary.UseCompatibleTextRendering = true;
+            this.CheckTemporary.UseVisualStyleBackColor = true;
+            // 
+            // CheckSparseFile
+            // 
+            resources.ApplyResources(this.CheckSparseFile, "CheckSparseFile");
+            this.CheckSparseFile.Checked = true;
+            this.CheckSparseFile.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.CheckSparseFile.Name = "CheckSparseFile";
+            this.CheckSparseFile.ThreeState = true;
+            this.CheckSparseFile.UseVisualStyleBackColor = true;
+            // 
+            // CheckCompressed
+            // 
+            resources.ApplyResources(this.CheckCompressed, "CheckCompressed");
+            this.CheckCompressed.Checked = true;
+            this.CheckCompressed.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.CheckCompressed.Name = "CheckCompressed";
+            this.CheckCompressed.ThreeState = true;
+            this.CheckCompressed.UseVisualStyleBackColor = true;
+            // 
+            // CheckEncrypted
+            // 
+            resources.ApplyResources(this.CheckEncrypted, "CheckEncrypted");
+            this.CheckEncrypted.Checked = true;
+            this.CheckEncrypted.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.CheckEncrypted.Name = "CheckEncrypted";
+            this.CheckEncrypted.UseVisualStyleBackColor = true;
+            // 
             // SearchOptionsForm
             // 
             this.AcceptButton = this.BtnOK;
@@ -289,7 +386,6 @@
             this.ControlBox = false;
             this.Controls.Add(ContentLayout);
             this.Controls.Add(this.ButtonPanel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.HelpButton = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -300,13 +396,16 @@
             DatesGrid.ResumeLayout(false);
             DatesGrid.PerformLayout();
             SizeGroup.ResumeLayout(false);
+            FileSizeLayout.ResumeLayout(false);
+            FileSizeLayout.PerformLayout();
+            AttributesGroup.ResumeLayout(false);
             ExcludeGroup.ResumeLayout(false);
             ExcludeGroup.PerformLayout();
             this.ButtonPanel.ResumeLayout(false);
             this.InnerButtonPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
-            FileSizeLayout.ResumeLayout(false);
-            FileSizeLayout.PerformLayout();
+            AttributesLayout.ResumeLayout(false);
+            AttributesLayout.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -323,9 +422,17 @@
         private System.Windows.Forms.DateTimePicker DtEndLastModified;
         private System.Windows.Forms.DateTimePicker DtEndCreation;
         private System.Windows.Forms.DateTimePicker DtEndLastAccess;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox ExcludesTextArea;
         private System.IO.FileSystemWatcher fileSystemWatcher1;
         private EnumFilesFormControls.FileSizePicker FileMinSize;
         private EnumFilesFormControls.FileSizePicker FileMaxSize;
+        private System.Windows.Forms.CheckBox CheckReadOnly;
+        private System.Windows.Forms.CheckBox CheckArchive;
+        private System.Windows.Forms.CheckBox CheckHidden;
+        private System.Windows.Forms.CheckBox CheckSystem;
+        private System.Windows.Forms.CheckBox CheckTemporary;
+        private System.Windows.Forms.CheckBox CheckSparseFile;
+        private System.Windows.Forms.CheckBox CheckCompressed;
+        private System.Windows.Forms.CheckBox CheckEncrypted;
     }
 }
