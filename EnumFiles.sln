@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumFiles", "EnumFiles\EnumFiles.csproj", "{B042B97E-E839-4622-BCB8-21B03CD782B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumFilesFormControls", "EnumFilesFormControls\EnumFilesFormControls.csproj", "{020CD833-922A-42D1-A395-624C5C4943A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{B042B97E-E839-4622-BCB8-21B03CD782B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B042B97E-E839-4622-BCB8-21B03CD782B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B042B97E-E839-4622-BCB8-21B03CD782B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020CD833-922A-42D1-A395-624C5C4943A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020CD833-922A-42D1-A395-624C5C4943A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020CD833-922A-42D1-A395-624C5C4943A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020CD833-922A-42D1-A395-624C5C4943A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
