@@ -147,7 +147,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="InnerButtonPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>186, 0</value>
+    <value>426, 0</value>
   </data>
   <data name="InnerButtonPanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>158, 31</value>
@@ -172,10 +172,10 @@
     <value>Bottom</value>
   </data>
   <data name="ButtonPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 230</value>
+    <value>0, 330</value>
   </data>
   <data name="ButtonPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>344, 31</value>
+    <value>584, 31</value>
   </data>
   <data name="ButtonPanel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -190,7 +190,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ButtonPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="BtnOK.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
@@ -240,6 +240,732 @@
   <data name="&gt;&gt;BtnCancel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <metadata name="ContentLayout.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="ContentLayout.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <metadata name="DatesGroup.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="DatesGrid.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="&gt;&gt;DatesGrid.Name" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DatesGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DatesGrid.Parent" xml:space="preserve">
+    <value>DatesGroup</value>
+  </data>
+  <data name="&gt;&gt;DatesGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DatesGrid.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="LblLastModified" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCreation" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblLastAccess" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblStart" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="LblEnd" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="DtStartLastModified" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="DtStartCreation" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="DtStartLastAccess" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="DtEndLastModified" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="DtEndCreation" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="DtEndLastAccess" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,60,Percent,33.33333,Percent,33.33333,Percent,33.33333" /&gt;&lt;Rows Styles="Absolute,20,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="DatesGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DatesGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="DatesGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 94</value>
+  </data>
+  <data name="DatesGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DatesGroup.Text" xml:space="preserve">
+    <value>Dates</value>
+  </data>
+  <data name="&gt;&gt;DatesGroup.Name" xml:space="preserve">
+    <value>DatesGroup</value>
+  </data>
+  <data name="&gt;&gt;DatesGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DatesGroup.Parent" xml:space="preserve">
+    <value>ContentLayout</value>
+  </data>
+  <data name="&gt;&gt;DatesGroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SizeGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="SizeGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 103</value>
+  </data>
+  <data name="SizeGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 44</value>
+  </data>
+  <data name="SizeGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SizeGroup.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="&gt;&gt;SizeGroup.Name" xml:space="preserve">
+    <value>SizeGroup</value>
+  </data>
+  <data name="&gt;&gt;SizeGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SizeGroup.Parent" xml:space="preserve">
+    <value>ContentLayout</value>
+  </data>
+  <data name="&gt;&gt;SizeGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="AttributesGroup.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="AttributesGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="AttributesGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 153</value>
+  </data>
+  <data name="AttributesGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 94</value>
+  </data>
+  <data name="AttributesGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AttributesGroup.Text" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="&gt;&gt;AttributesGroup.Name" xml:space="preserve">
+    <value>AttributesGroup</value>
+  </data>
+  <data name="&gt;&gt;AttributesGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AttributesGroup.Parent" xml:space="preserve">
+    <value>ContentLayout</value>
+  </data>
+  <data name="&gt;&gt;AttributesGroup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="ExcludeGroup.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="textBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 15</value>
+  </data>
+  <data name="textBox1.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox1.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 56</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>ExcludeGroup</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ExcludeGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 253</value>
+  </data>
+  <data name="ExcludeGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 74</value>
+  </data>
+  <data name="ExcludeGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ExcludeGroup.Text" xml:space="preserve">
+    <value>Exclude Directory/Files</value>
+  </data>
+  <data name="&gt;&gt;ExcludeGroup.Name" xml:space="preserve">
+    <value>ExcludeGroup</value>
+  </data>
+  <data name="&gt;&gt;ExcludeGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExcludeGroup.Parent" xml:space="preserve">
+    <value>ContentLayout</value>
+  </data>
+  <data name="&gt;&gt;ExcludeGroup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ContentLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ContentLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ContentLayout.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ContentLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 330</value>
+  </data>
+  <data name="ContentLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ContentLayout.Name" xml:space="preserve">
+    <value>ContentLayout</value>
+  </data>
+  <data name="&gt;&gt;ContentLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContentLayout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ContentLayout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ContentLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="DatesGroup" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="SizeGroup" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="AttributesGroup" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ExcludeGroup" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,100,Absolute,50,Absolute,100,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="DatesGrid.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="LblLastModified.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="lblCreation.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="lblLastAccess.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="lblStart.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="LblEnd.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="DatesGrid.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
+    <value>Single</value>
+  </data>
+  <data name="DatesGrid.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LblLastModified.Name" xml:space="preserve">
+    <value>LblLastModified</value>
+  </data>
+  <data name="&gt;&gt;LblLastModified.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblLastModified.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;LblLastModified.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblCreation.Name" xml:space="preserve">
+    <value>lblCreation</value>
+  </data>
+  <data name="&gt;&gt;lblCreation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCreation.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;lblCreation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLastAccess.Name" xml:space="preserve">
+    <value>lblLastAccess</value>
+  </data>
+  <data name="&gt;&gt;lblLastAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLastAccess.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;lblLastAccess.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Name" xml:space="preserve">
+    <value>lblStart</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;lblStart.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LblEnd.Name" xml:space="preserve">
+    <value>LblEnd</value>
+  </data>
+  <data name="&gt;&gt;LblEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblEnd.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;LblEnd.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastModified.Name" xml:space="preserve">
+    <value>DtStartLastModified</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastModified.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastModified.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastModified.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;DtStartCreation.Name" xml:space="preserve">
+    <value>DtStartCreation</value>
+  </data>
+  <data name="&gt;&gt;DtStartCreation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DtStartCreation.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DtStartCreation.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastAccess.Name" xml:space="preserve">
+    <value>DtStartLastAccess</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastAccess.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastAccess.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastModified.Name" xml:space="preserve">
+    <value>DtEndLastModified</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastModified.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastModified.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastModified.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;DtEndCreation.Name" xml:space="preserve">
+    <value>DtEndCreation</value>
+  </data>
+  <data name="&gt;&gt;DtEndCreation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DtEndCreation.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DtEndCreation.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastAccess.Name" xml:space="preserve">
+    <value>DtEndLastAccess</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastAccess.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastAccess.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="DatesGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DatesGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 15</value>
+  </data>
+  <data name="DatesGrid.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DatesGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 76</value>
+  </data>
+  <data name="DatesGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DatesGrid.Name" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DatesGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DatesGrid.Parent" xml:space="preserve">
+    <value>DatesGroup</value>
+  </data>
+  <data name="&gt;&gt;DatesGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DatesGrid.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="LblLastModified" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCreation" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblLastAccess" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblStart" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="LblEnd" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="DtStartLastModified" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="DtStartCreation" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="DtStartLastAccess" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="DtEndLastModified" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="DtEndCreation" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="DtEndLastAccess" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,60,Percent,33.33333,Percent,33.33333,Percent,33.33333" /&gt;&lt;Rows Styles="Absolute,20,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="LblLastModified.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="LblLastModified.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="LblLastModified.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblLastModified.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 5</value>
+  </data>
+  <data name="LblLastModified.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 12</value>
+  </data>
+  <data name="LblLastModified.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblLastModified.Text" xml:space="preserve">
+    <value>Last Modified</value>
+  </data>
+  <data name="LblLastModified.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;LblLastModified.Name" xml:space="preserve">
+    <value>LblLastModified</value>
+  </data>
+  <data name="&gt;&gt;LblLastModified.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblLastModified.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;LblLastModified.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="lblCreation.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="lblCreation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblCreation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCreation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 5</value>
+  </data>
+  <data name="lblCreation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 12</value>
+  </data>
+  <data name="lblCreation.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblCreation.Text" xml:space="preserve">
+    <value>Creation</value>
+  </data>
+  <data name="lblCreation.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblCreation.Name" xml:space="preserve">
+    <value>lblCreation</value>
+  </data>
+  <data name="&gt;&gt;lblCreation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCreation.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;lblCreation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="lblLastAccess.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="lblLastAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblLastAccess.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLastAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 5</value>
+  </data>
+  <data name="lblLastAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 12</value>
+  </data>
+  <data name="lblLastAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblLastAccess.Text" xml:space="preserve">
+    <value>Last Access</value>
+  </data>
+  <data name="lblLastAccess.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblLastAccess.Name" xml:space="preserve">
+    <value>lblLastAccess</value>
+  </data>
+  <data name="&gt;&gt;lblLastAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLastAccess.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;lblLastAccess.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="lblStart.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="lblStart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblStart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="lblStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 12</value>
+  </data>
+  <data name="lblStart.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="lblStart.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Name" xml:space="preserve">
+    <value>lblStart</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;lblStart.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="LblEnd.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="LblEnd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="LblEnd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 55</value>
+  </data>
+  <data name="LblEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 12</value>
+  </data>
+  <data name="LblEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LblEnd.Text" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="LblEnd.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;LblEnd.Name" xml:space="preserve">
+    <value>LblEnd</value>
+  </data>
+  <data name="&gt;&gt;LblEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblEnd.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;LblEnd.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DtStartLastModified.CustomFormat" xml:space="preserve">
+    <value>yyyy/MM/dd hh:mm:ss</value>
+  </data>
+  <data name="DtStartLastModified.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DtStartLastModified.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 25</value>
+  </data>
+  <data name="DtStartLastModified.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 19</value>
+  </data>
+  <data name="DtStartLastModified.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastModified.Name" xml:space="preserve">
+    <value>DtStartLastModified</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastModified.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastModified.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastModified.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DtStartCreation.CustomFormat" xml:space="preserve">
+    <value>yyyy/MM/dd hh:mm:ss</value>
+  </data>
+  <data name="DtStartCreation.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DtStartCreation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 25</value>
+  </data>
+  <data name="DtStartCreation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 19</value>
+  </data>
+  <data name="DtStartCreation.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;DtStartCreation.Name" xml:space="preserve">
+    <value>DtStartCreation</value>
+  </data>
+  <data name="&gt;&gt;DtStartCreation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DtStartCreation.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DtStartCreation.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="DtStartLastAccess.CustomFormat" xml:space="preserve">
+    <value>yyyy/MM/dd hh:mm:ss</value>
+  </data>
+  <data name="DtStartLastAccess.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DtStartLastAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 25</value>
+  </data>
+  <data name="DtStartLastAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 19</value>
+  </data>
+  <data name="DtStartLastAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastAccess.Name" xml:space="preserve">
+    <value>DtStartLastAccess</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastAccess.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DtStartLastAccess.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="DtEndLastModified.CustomFormat" xml:space="preserve">
+    <value>yyyy/MM/dd hh:mm:ss</value>
+  </data>
+  <data name="DtEndLastModified.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DtEndLastModified.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 51</value>
+  </data>
+  <data name="DtEndLastModified.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 19</value>
+  </data>
+  <data name="DtEndLastModified.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastModified.Name" xml:space="preserve">
+    <value>DtEndLastModified</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastModified.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastModified.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastModified.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="DtEndCreation.CustomFormat" xml:space="preserve">
+    <value>yyyy/MM/dd hh:mm:ss</value>
+  </data>
+  <data name="DtEndCreation.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DtEndCreation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 51</value>
+  </data>
+  <data name="DtEndCreation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 19</value>
+  </data>
+  <data name="DtEndCreation.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;DtEndCreation.Name" xml:space="preserve">
+    <value>DtEndCreation</value>
+  </data>
+  <data name="&gt;&gt;DtEndCreation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DtEndCreation.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DtEndCreation.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="DtEndLastAccess.CustomFormat" xml:space="preserve">
+    <value>yyyy/MM/dd hh:mm:ss</value>
+  </data>
+  <data name="DtEndLastAccess.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DtEndLastAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 51</value>
+  </data>
+  <data name="DtEndLastAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 19</value>
+  </data>
+  <data name="DtEndLastAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastAccess.Name" xml:space="preserve">
+    <value>DtEndLastAccess</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastAccess.Parent" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DtEndLastAccess.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -247,7 +973,7 @@
     <value>6, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>344, 261</value>
+    <value>584, 361</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>

@@ -48,10 +48,10 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.ComboOutputFormat = new System.Windows.Forms.ComboBox();
             this.BtnEditFormat = new System.Windows.Forms.Button();
+            this.CheckShowResults = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnRun = new System.Windows.Forms.Button();
             this.BtnCancel = new System.Windows.Forms.Button();
-            this.CheckShowResults = new System.Windows.Forms.CheckBox();
             LblDirectory = new System.Windows.Forms.Label();
             LblFileName = new System.Windows.Forms.Label();
             LblOtherConditions = new System.Windows.Forms.Label();
@@ -198,6 +198,12 @@
             resources.ApplyResources(ButtonPanel, "ButtonPanel");
             ButtonPanel.Name = "ButtonPanel";
             // 
+            // CheckShowResults
+            // 
+            resources.ApplyResources(this.CheckShowResults, "CheckShowResults");
+            this.CheckShowResults.Name = "CheckShowResults";
+            this.CheckShowResults.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.BtnRun);
@@ -219,12 +225,6 @@
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.UseVisualStyleBackColor = true;
             this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
-            // 
-            // CheckShowResults
-            // 
-            resources.ApplyResources(this.CheckShowResults, "CheckShowResults");
-            this.CheckShowResults.Name = "CheckShowResults";
-            this.CheckShowResults.UseVisualStyleBackColor = true;
             // 
             // EnumFilesForm
             // 
