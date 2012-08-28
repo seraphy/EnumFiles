@@ -40,7 +40,8 @@ namespace EnumFiles
 
         private void BtnRun_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Run");
+            var reportView = new ReportView();
+            reportView.Show(this);
         }
     }
 }
