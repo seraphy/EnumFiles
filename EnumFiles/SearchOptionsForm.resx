@@ -130,403 +130,12 @@
   <metadata name="DatesGrid.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
-  <data name="&gt;&gt;DatesGrid.Name" xml:space="preserve">
-    <value>DatesGrid</value>
-  </data>
-  <data name="&gt;&gt;DatesGrid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DatesGrid.Parent" xml:space="preserve">
-    <value>DatesGroup</value>
-  </data>
-  <data name="&gt;&gt;DatesGrid.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="DatesGrid.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="LblLastModified" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCreation" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblLastAccess" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblStart" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="LblEnd" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="DtStartLastModified" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="DtStartCreation" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="DtStartLastAccess" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="DtEndLastModified" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="DtEndCreation" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="DtEndLastAccess" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,60,Percent,33.33333,Percent,33.33333,Percent,33.33333" /&gt;&lt;Rows Styles="Absolute,20,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="DatesGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="DatesGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="DatesGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>578, 94</value>
-  </data>
-  <data name="DatesGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="DatesGroup.Text" xml:space="preserve">
-    <value>Dates</value>
-  </data>
-  <data name="&gt;&gt;DatesGroup.Name" xml:space="preserve">
-    <value>DatesGroup</value>
-  </data>
-  <data name="&gt;&gt;DatesGroup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DatesGroup.Parent" xml:space="preserve">
-    <value>ContentLayout</value>
-  </data>
-  <data name="&gt;&gt;DatesGroup.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="SizeGroup.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="FileSizeLayout.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <data name="&gt;&gt;FileSizeLayout.Name" xml:space="preserve">
-    <value>FileSizeLayout</value>
-  </data>
-  <data name="&gt;&gt;FileSizeLayout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;FileSizeLayout.Parent" xml:space="preserve">
-    <value>SizeGroup</value>
-  </data>
-  <data name="&gt;&gt;FileSizeLayout.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="FileSizeLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="LblMinSize" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="FileMinSize" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="LblMaxSize" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="FileMaxSize" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,60,Percent,50,Absolute,60,Percent,50" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="SizeGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="SizeGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 103</value>
-  </data>
-  <data name="SizeGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>578, 44</value>
-  </data>
-  <data name="SizeGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="SizeGroup.Text" xml:space="preserve">
-    <value>Size</value>
-  </data>
-  <data name="&gt;&gt;SizeGroup.Name" xml:space="preserve">
-    <value>SizeGroup</value>
-  </data>
-  <data name="&gt;&gt;SizeGroup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SizeGroup.Parent" xml:space="preserve">
-    <value>ContentLayout</value>
-  </data>
-  <data name="&gt;&gt;SizeGroup.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="AttributesGroup.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="AttributesLayout.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <data name="&gt;&gt;AttributesLayout.Name" xml:space="preserve">
-    <value>AttributesLayout</value>
-  </data>
-  <data name="&gt;&gt;AttributesLayout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AttributesLayout.Parent" xml:space="preserve">
-    <value>AttributesGroup</value>
-  </data>
-  <data name="&gt;&gt;AttributesLayout.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="AttributesLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="CheckReadOnly" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CheckArchive" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="CheckHidden" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="CheckSystem" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="CheckTemporary" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CheckSparseFile" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="CheckCompressed" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="CheckEncrypted" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="AttributesGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="AttributesGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 153</value>
-  </data>
-  <data name="AttributesGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>578, 74</value>
-  </data>
-  <data name="AttributesGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="AttributesGroup.Text" xml:space="preserve">
-    <value>Attributes</value>
-  </data>
-  <data name="&gt;&gt;AttributesGroup.Name" xml:space="preserve">
-    <value>AttributesGroup</value>
-  </data>
-  <data name="&gt;&gt;AttributesGroup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AttributesGroup.Parent" xml:space="preserve">
-    <value>ContentLayout</value>
-  </data>
-  <data name="&gt;&gt;AttributesGroup.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <metadata name="ExcludeGroup.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <data name="&gt;&gt;ExcludesTextArea.Name" xml:space="preserve">
-    <value>ExcludesTextArea</value>
-  </data>
-  <data name="&gt;&gt;ExcludesTextArea.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ExcludesTextArea.Parent" xml:space="preserve">
-    <value>ExcludeGroup</value>
-  </data>
-  <data name="&gt;&gt;ExcludesTextArea.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ExcludeGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ExcludeGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 233</value>
-  </data>
-  <data name="ExcludeGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>578, 94</value>
-  </data>
-  <data name="ExcludeGroup.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="ExcludeGroup.Text" xml:space="preserve">
-    <value>Exclude Directory/Files</value>
-  </data>
-  <data name="&gt;&gt;ExcludeGroup.Name" xml:space="preserve">
-    <value>ExcludeGroup</value>
-  </data>
-  <data name="&gt;&gt;ExcludeGroup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ExcludeGroup.Parent" xml:space="preserve">
-    <value>ContentLayout</value>
-  </data>
-  <data name="&gt;&gt;ExcludeGroup.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="ContentLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ContentLayout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ContentLayout.RowCount" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="ContentLayout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 330</value>
-  </data>
-  <data name="ContentLayout.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ContentLayout.Name" xml:space="preserve">
-    <value>ContentLayout</value>
-  </data>
-  <data name="&gt;&gt;ContentLayout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ContentLayout.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ContentLayout.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ContentLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="DatesGroup" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="SizeGroup" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="AttributesGroup" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ExcludeGroup" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,100,Absolute,50,Absolute,80,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <metadata name="DatesGrid.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="LblLastModified.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="lblCreation.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="lblLastAccess.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="lblStart.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="LblEnd.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <data name="DatesGrid.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
     <value>Single</value>
   </data>
   <data name="DatesGrid.ColumnCount" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;LblLastModified.Name" xml:space="preserve">
-    <value>LblLastModified</value>
-  </data>
-  <data name="&gt;&gt;LblLastModified.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblLastModified.Parent" xml:space="preserve">
-    <value>DatesGrid</value>
-  </data>
-  <data name="&gt;&gt;LblLastModified.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblCreation.Name" xml:space="preserve">
-    <value>lblCreation</value>
-  </data>
-  <data name="&gt;&gt;lblCreation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblCreation.Parent" xml:space="preserve">
-    <value>DatesGrid</value>
-  </data>
-  <data name="&gt;&gt;lblCreation.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lblLastAccess.Name" xml:space="preserve">
-    <value>lblLastAccess</value>
-  </data>
-  <data name="&gt;&gt;lblLastAccess.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblLastAccess.Parent" xml:space="preserve">
-    <value>DatesGrid</value>
-  </data>
-  <data name="&gt;&gt;lblLastAccess.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblStart.Name" xml:space="preserve">
-    <value>lblStart</value>
-  </data>
-  <data name="&gt;&gt;lblStart.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblStart.Parent" xml:space="preserve">
-    <value>DatesGrid</value>
-  </data>
-  <data name="&gt;&gt;lblStart.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblEnd.Name" xml:space="preserve">
-    <value>LblEnd</value>
-  </data>
-  <data name="&gt;&gt;LblEnd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblEnd.Parent" xml:space="preserve">
-    <value>DatesGrid</value>
-  </data>
-  <data name="&gt;&gt;LblEnd.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;DtStartLastModified.Name" xml:space="preserve">
-    <value>DtStartLastModified</value>
-  </data>
-  <data name="&gt;&gt;DtStartLastModified.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DtStartLastModified.Parent" xml:space="preserve">
-    <value>DatesGrid</value>
-  </data>
-  <data name="&gt;&gt;DtStartLastModified.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;DtStartCreation.Name" xml:space="preserve">
-    <value>DtStartCreation</value>
-  </data>
-  <data name="&gt;&gt;DtStartCreation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DtStartCreation.Parent" xml:space="preserve">
-    <value>DatesGrid</value>
-  </data>
-  <data name="&gt;&gt;DtStartCreation.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;DtStartLastAccess.Name" xml:space="preserve">
-    <value>DtStartLastAccess</value>
-  </data>
-  <data name="&gt;&gt;DtStartLastAccess.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DtStartLastAccess.Parent" xml:space="preserve">
-    <value>DatesGrid</value>
-  </data>
-  <data name="&gt;&gt;DtStartLastAccess.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;DtEndLastModified.Name" xml:space="preserve">
-    <value>DtEndLastModified</value>
-  </data>
-  <data name="&gt;&gt;DtEndLastModified.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DtEndLastModified.Parent" xml:space="preserve">
-    <value>DatesGrid</value>
-  </data>
-  <data name="&gt;&gt;DtEndLastModified.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;DtEndCreation.Name" xml:space="preserve">
-    <value>DtEndCreation</value>
-  </data>
-  <data name="&gt;&gt;DtEndCreation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DtEndCreation.Parent" xml:space="preserve">
-    <value>DatesGrid</value>
-  </data>
-  <data name="&gt;&gt;DtEndCreation.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;DtEndLastAccess.Name" xml:space="preserve">
-    <value>DtEndLastAccess</value>
-  </data>
-  <data name="&gt;&gt;DtEndLastAccess.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DtEndLastAccess.Parent" xml:space="preserve">
-    <value>DatesGrid</value>
-  </data>
-  <data name="&gt;&gt;DtEndLastAccess.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="DatesGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="DatesGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 15</value>
-  </data>
-  <data name="DatesGrid.RowCount" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="DatesGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>572, 76</value>
-  </data>
-  <data name="DatesGrid.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;DatesGrid.Name" xml:space="preserve">
-    <value>DatesGrid</value>
-  </data>
-  <data name="&gt;&gt;DatesGrid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DatesGrid.Parent" xml:space="preserve">
-    <value>DatesGroup</value>
-  </data>
-  <data name="&gt;&gt;DatesGrid.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="DatesGrid.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="LblLastModified" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCreation" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblLastAccess" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblStart" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="LblEnd" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="DtStartLastModified" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="DtStartCreation" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="DtStartLastAccess" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="DtEndLastModified" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="DtEndCreation" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="DtEndLastAccess" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,60,Percent,33.33333,Percent,33.33333,Percent,33.33333" /&gt;&lt;Rows Styles="Absolute,20,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="LblLastModified.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -537,6 +146,7 @@
   <data name="LblLastModified.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="LblLastModified.Location" type="System.Drawing.Point, System.Drawing">
     <value>65, 5</value>
   </data>
@@ -870,95 +480,71 @@
   <data name="&gt;&gt;DtEndLastAccess.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <data name="DatesGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DatesGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 15</value>
+  </data>
+  <data name="DatesGrid.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DatesGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 76</value>
+  </data>
+  <data name="DatesGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DatesGrid.Name" xml:space="preserve">
+    <value>DatesGrid</value>
+  </data>
+  <data name="&gt;&gt;DatesGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DatesGrid.Parent" xml:space="preserve">
+    <value>DatesGroup</value>
+  </data>
+  <data name="&gt;&gt;DatesGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DatesGrid.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="LblLastModified" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblCreation" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblLastAccess" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblStart" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="LblEnd" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="DtStartLastModified" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="DtStartCreation" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="DtStartLastAccess" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="DtEndLastModified" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="DtEndCreation" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="DtEndLastAccess" Row="2" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,60,Percent,33.33333,Percent,33.33333,Percent,33.33333" /&gt;&lt;Rows Styles="Absolute,20,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="DatesGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DatesGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="DatesGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 94</value>
+  </data>
+  <data name="DatesGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DatesGroup.Text" xml:space="preserve">
+    <value>Dates</value>
+  </data>
+  <data name="&gt;&gt;DatesGroup.Name" xml:space="preserve">
+    <value>DatesGroup</value>
+  </data>
+  <data name="&gt;&gt;DatesGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DatesGroup.Parent" xml:space="preserve">
+    <value>ContentLayout</value>
+  </data>
+  <data name="&gt;&gt;DatesGroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="SizeGroup.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
   <metadata name="FileSizeLayout.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="LblMinSize.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="LblMaxSize.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <data name="FileSizeLayout.ColumnCount" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;LblMinSize.Name" xml:space="preserve">
-    <value>LblMinSize</value>
-  </data>
-  <data name="&gt;&gt;LblMinSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblMinSize.Parent" xml:space="preserve">
-    <value>FileSizeLayout</value>
-  </data>
-  <data name="&gt;&gt;LblMinSize.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;FileMinSize.Name" xml:space="preserve">
-    <value>FileMinSize</value>
-  </data>
-  <data name="&gt;&gt;FileMinSize.Type" xml:space="preserve">
-    <value>EnumFilesFormControls.FileSizePicker, EnumFilesFormControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;FileMinSize.Parent" xml:space="preserve">
-    <value>FileSizeLayout</value>
-  </data>
-  <data name="&gt;&gt;FileMinSize.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LblMaxSize.Name" xml:space="preserve">
-    <value>LblMaxSize</value>
-  </data>
-  <data name="&gt;&gt;LblMaxSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblMaxSize.Parent" xml:space="preserve">
-    <value>FileSizeLayout</value>
-  </data>
-  <data name="&gt;&gt;LblMaxSize.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;FileMaxSize.Name" xml:space="preserve">
-    <value>FileMaxSize</value>
-  </data>
-  <data name="&gt;&gt;FileMaxSize.Type" xml:space="preserve">
-    <value>EnumFilesFormControls.FileSizePicker, EnumFilesFormControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;FileMaxSize.Parent" xml:space="preserve">
-    <value>FileSizeLayout</value>
-  </data>
-  <data name="&gt;&gt;FileMaxSize.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="FileSizeLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="FileSizeLayout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 15</value>
-  </data>
-  <data name="FileSizeLayout.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="FileSizeLayout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>572, 26</value>
-  </data>
-  <data name="FileSizeLayout.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;FileSizeLayout.Name" xml:space="preserve">
-    <value>FileSizeLayout</value>
-  </data>
-  <data name="&gt;&gt;FileSizeLayout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;FileSizeLayout.Parent" xml:space="preserve">
-    <value>SizeGroup</value>
-  </data>
-  <data name="&gt;&gt;FileSizeLayout.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="FileSizeLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="LblMinSize" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="FileMinSize" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="LblMaxSize" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="FileMaxSize" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,60,Percent,50,Absolute,60,Percent,50" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="LblMinSize.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
@@ -1086,329 +672,71 @@
   <data name="&gt;&gt;FileMaxSize.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="ExcludesTextArea.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="FileSizeLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="ExcludesTextArea.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="FileSizeLayout.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 15</value>
   </data>
-  <data name="ExcludesTextArea.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ExcludesTextArea.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
-  </data>
-  <data name="ExcludesTextArea.Size" type="System.Drawing.Size, System.Drawing">
-    <value>572, 76</value>
-  </data>
-  <data name="ExcludesTextArea.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ExcludesTextArea.Name" xml:space="preserve">
-    <value>ExcludesTextArea</value>
-  </data>
-  <data name="&gt;&gt;ExcludesTextArea.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ExcludesTextArea.Parent" xml:space="preserve">
-    <value>ExcludeGroup</value>
-  </data>
-  <data name="&gt;&gt;ExcludesTextArea.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;InnerButtonPanel.Name" xml:space="preserve">
-    <value>InnerButtonPanel</value>
-  </data>
-  <data name="&gt;&gt;InnerButtonPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InnerButtonPanel.Parent" xml:space="preserve">
-    <value>ButtonPanel</value>
-  </data>
-  <data name="&gt;&gt;InnerButtonPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ButtonPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="ButtonPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 330</value>
-  </data>
-  <data name="ButtonPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 31</value>
-  </data>
-  <data name="ButtonPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ButtonPanel.Name" xml:space="preserve">
-    <value>ButtonPanel</value>
-  </data>
-  <data name="&gt;&gt;ButtonPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ButtonPanel.ZOrder" xml:space="preserve">
+  <data name="FileSizeLayout.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;BtnOK.Name" xml:space="preserve">
-    <value>BtnOK</value>
+  <data name="FileSizeLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 26</value>
   </data>
-  <data name="&gt;&gt;BtnOK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnOK.Parent" xml:space="preserve">
-    <value>InnerButtonPanel</value>
-  </data>
-  <data name="&gt;&gt;BtnOK.ZOrder" xml:space="preserve">
+  <data name="FileSizeLayout.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;BtnCancel.Name" xml:space="preserve">
-    <value>BtnCancel</value>
+  <data name="&gt;&gt;FileSizeLayout.Name" xml:space="preserve">
+    <value>FileSizeLayout</value>
   </data>
-  <data name="&gt;&gt;BtnCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;FileSizeLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BtnCancel.Parent" xml:space="preserve">
-    <value>InnerButtonPanel</value>
+  <data name="&gt;&gt;FileSizeLayout.Parent" xml:space="preserve">
+    <value>SizeGroup</value>
   </data>
-  <data name="&gt;&gt;BtnCancel.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;FileSizeLayout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FileSizeLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="LblMinSize" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="FileMinSize" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="LblMaxSize" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="FileMaxSize" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,60,Percent,50,Absolute,60,Percent,50" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="SizeGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="SizeGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 103</value>
+  </data>
+  <data name="SizeGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 44</value>
+  </data>
+  <data name="SizeGroup.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="InnerButtonPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
+  <data name="SizeGroup.Text" xml:space="preserve">
+    <value>Size</value>
   </data>
-  <data name="InnerButtonPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>426, 0</value>
+  <data name="&gt;&gt;SizeGroup.Name" xml:space="preserve">
+    <value>SizeGroup</value>
   </data>
-  <data name="InnerButtonPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 31</value>
+  <data name="&gt;&gt;SizeGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="InnerButtonPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;SizeGroup.Parent" xml:space="preserve">
+    <value>ContentLayout</value>
   </data>
-  <data name="&gt;&gt;InnerButtonPanel.Name" xml:space="preserve">
-    <value>InnerButtonPanel</value>
-  </data>
-  <data name="&gt;&gt;InnerButtonPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InnerButtonPanel.Parent" xml:space="preserve">
-    <value>ButtonPanel</value>
-  </data>
-  <data name="&gt;&gt;InnerButtonPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="BtnOK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="BtnOK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 23</value>
-  </data>
-  <data name="BtnOK.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="BtnOK.Text" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="&gt;&gt;BtnOK.Name" xml:space="preserve">
-    <value>BtnOK</value>
-  </data>
-  <data name="&gt;&gt;BtnOK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnOK.Parent" xml:space="preserve">
-    <value>InnerButtonPanel</value>
-  </data>
-  <data name="&gt;&gt;BtnOK.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="BtnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 3</value>
-  </data>
-  <data name="BtnCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnCancel.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;SizeGroup.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="BtnCancel.Text" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
-  <data name="&gt;&gt;BtnCancel.Name" xml:space="preserve">
-    <value>BtnCancel</value>
-  </data>
-  <data name="&gt;&gt;BtnCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnCancel.Parent" xml:space="preserve">
-    <value>InnerButtonPanel</value>
-  </data>
-  <data name="&gt;&gt;BtnCancel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="fileSystemWatcher1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+  <metadata name="AttributesGroup.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
   </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 12</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>584, 361</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Search Options</value>
-  </data>
-  <data name="&gt;&gt;fileSystemWatcher1.Name" xml:space="preserve">
-    <value>fileSystemWatcher1</value>
-  </data>
-  <data name="&gt;&gt;fileSystemWatcher1.Type" xml:space="preserve">
-    <value>System.IO.FileSystemWatcher, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>SearchOptionsForm</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <metadata name="AttributesLayout.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
   <data name="AttributesLayout.ColumnCount" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;CheckReadOnly.Name" xml:space="preserve">
-    <value>CheckReadOnly</value>
-  </data>
-  <data name="&gt;&gt;CheckReadOnly.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CheckReadOnly.Parent" xml:space="preserve">
-    <value>AttributesLayout</value>
-  </data>
-  <data name="&gt;&gt;CheckReadOnly.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;CheckArchive.Name" xml:space="preserve">
-    <value>CheckArchive</value>
-  </data>
-  <data name="&gt;&gt;CheckArchive.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CheckArchive.Parent" xml:space="preserve">
-    <value>AttributesLayout</value>
-  </data>
-  <data name="&gt;&gt;CheckArchive.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;CheckHidden.Name" xml:space="preserve">
-    <value>CheckHidden</value>
-  </data>
-  <data name="&gt;&gt;CheckHidden.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CheckHidden.Parent" xml:space="preserve">
-    <value>AttributesLayout</value>
-  </data>
-  <data name="&gt;&gt;CheckHidden.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;CheckSystem.Name" xml:space="preserve">
-    <value>CheckSystem</value>
-  </data>
-  <data name="&gt;&gt;CheckSystem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CheckSystem.Parent" xml:space="preserve">
-    <value>AttributesLayout</value>
-  </data>
-  <data name="&gt;&gt;CheckSystem.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;CheckTemporary.Name" xml:space="preserve">
-    <value>CheckTemporary</value>
-  </data>
-  <data name="&gt;&gt;CheckTemporary.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CheckTemporary.Parent" xml:space="preserve">
-    <value>AttributesLayout</value>
-  </data>
-  <data name="&gt;&gt;CheckTemporary.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;CheckSparseFile.Name" xml:space="preserve">
-    <value>CheckSparseFile</value>
-  </data>
-  <data name="&gt;&gt;CheckSparseFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CheckSparseFile.Parent" xml:space="preserve">
-    <value>AttributesLayout</value>
-  </data>
-  <data name="&gt;&gt;CheckSparseFile.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;CheckCompressed.Name" xml:space="preserve">
-    <value>CheckCompressed</value>
-  </data>
-  <data name="&gt;&gt;CheckCompressed.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CheckCompressed.Parent" xml:space="preserve">
-    <value>AttributesLayout</value>
-  </data>
-  <data name="&gt;&gt;CheckCompressed.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;CheckEncrypted.Name" xml:space="preserve">
-    <value>CheckEncrypted</value>
-  </data>
-  <data name="&gt;&gt;CheckEncrypted.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CheckEncrypted.Parent" xml:space="preserve">
-    <value>AttributesLayout</value>
-  </data>
-  <data name="&gt;&gt;CheckEncrypted.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="AttributesLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="AttributesLayout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 15</value>
-  </data>
-  <data name="AttributesLayout.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="AttributesLayout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>572, 56</value>
-  </data>
-  <data name="AttributesLayout.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;AttributesLayout.Name" xml:space="preserve">
-    <value>AttributesLayout</value>
-  </data>
-  <data name="&gt;&gt;AttributesLayout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AttributesLayout.Parent" xml:space="preserve">
-    <value>AttributesGroup</value>
-  </data>
-  <data name="&gt;&gt;AttributesLayout.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="AttributesLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="CheckReadOnly" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CheckArchive" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="CheckHidden" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="CheckSystem" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="CheckTemporary" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CheckSparseFile" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="CheckCompressed" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="CheckEncrypted" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="CheckReadOnly.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left, Right</value>
@@ -1649,5 +977,278 @@
   </data>
   <data name="&gt;&gt;CheckEncrypted.ZOrder" xml:space="preserve">
     <value>7</value>
+  </data>
+  <data name="AttributesLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="AttributesLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 15</value>
+  </data>
+  <data name="AttributesLayout.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AttributesLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 56</value>
+  </data>
+  <data name="AttributesLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AttributesLayout.Name" xml:space="preserve">
+    <value>AttributesLayout</value>
+  </data>
+  <data name="&gt;&gt;AttributesLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AttributesLayout.Parent" xml:space="preserve">
+    <value>AttributesGroup</value>
+  </data>
+  <data name="&gt;&gt;AttributesLayout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AttributesLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="CheckReadOnly" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CheckArchive" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="CheckHidden" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="CheckSystem" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="CheckTemporary" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CheckSparseFile" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="CheckCompressed" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="CheckEncrypted" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="AttributesGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="AttributesGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 153</value>
+  </data>
+  <data name="AttributesGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 74</value>
+  </data>
+  <data name="AttributesGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AttributesGroup.Text" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="&gt;&gt;AttributesGroup.Name" xml:space="preserve">
+    <value>AttributesGroup</value>
+  </data>
+  <data name="&gt;&gt;AttributesGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AttributesGroup.Parent" xml:space="preserve">
+    <value>ContentLayout</value>
+  </data>
+  <data name="&gt;&gt;AttributesGroup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="ExcludeGroup.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="ExcludesTextArea.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ExcludesTextArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 15</value>
+  </data>
+  <data name="ExcludesTextArea.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ExcludesTextArea.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="ExcludesTextArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 76</value>
+  </data>
+  <data name="ExcludesTextArea.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ExcludesTextArea.Name" xml:space="preserve">
+    <value>ExcludesTextArea</value>
+  </data>
+  <data name="&gt;&gt;ExcludesTextArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExcludesTextArea.Parent" xml:space="preserve">
+    <value>ExcludeGroup</value>
+  </data>
+  <data name="&gt;&gt;ExcludesTextArea.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ExcludeGroup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ExcludeGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 233</value>
+  </data>
+  <data name="ExcludeGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 94</value>
+  </data>
+  <data name="ExcludeGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ExcludeGroup.Text" xml:space="preserve">
+    <value>Exclude Directory/Files</value>
+  </data>
+  <data name="&gt;&gt;ExcludeGroup.Name" xml:space="preserve">
+    <value>ExcludeGroup</value>
+  </data>
+  <data name="&gt;&gt;ExcludeGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExcludeGroup.Parent" xml:space="preserve">
+    <value>ContentLayout</value>
+  </data>
+  <data name="&gt;&gt;ExcludeGroup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ContentLayout.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ContentLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ContentLayout.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ContentLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 330</value>
+  </data>
+  <data name="ContentLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ContentLayout.Name" xml:space="preserve">
+    <value>ContentLayout</value>
+  </data>
+  <data name="&gt;&gt;ContentLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContentLayout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ContentLayout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ContentLayout.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="DatesGroup" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="SizeGroup" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="AttributesGroup" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ExcludeGroup" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,100,Absolute,50,Absolute,80,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="BtnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="BtnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="BtnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BtnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;BtnOK.Name" xml:space="preserve">
+    <value>BtnOK</value>
+  </data>
+  <data name="&gt;&gt;BtnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnOK.Parent" xml:space="preserve">
+    <value>InnerButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;BtnOK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 3</value>
+  </data>
+  <data name="BtnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;BtnCancel.Name" xml:space="preserve">
+    <value>BtnCancel</value>
+  </data>
+  <data name="&gt;&gt;BtnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCancel.Parent" xml:space="preserve">
+    <value>InnerButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;BtnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="InnerButtonPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="InnerButtonPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 0</value>
+  </data>
+  <data name="InnerButtonPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 31</value>
+  </data>
+  <data name="InnerButtonPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;InnerButtonPanel.Name" xml:space="preserve">
+    <value>InnerButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;InnerButtonPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InnerButtonPanel.Parent" xml:space="preserve">
+    <value>ButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;InnerButtonPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ButtonPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="ButtonPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 330</value>
+  </data>
+  <data name="ButtonPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 31</value>
+  </data>
+  <data name="ButtonPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ButtonPanel.Name" xml:space="preserve">
+    <value>ButtonPanel</value>
+  </data>
+  <data name="&gt;&gt;ButtonPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="fileSystemWatcher1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>584, 361</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Search Options</value>
+  </data>
+  <data name="&gt;&gt;fileSystemWatcher1.Name" xml:space="preserve">
+    <value>fileSystemWatcher1</value>
+  </data>
+  <data name="&gt;&gt;fileSystemWatcher1.Type" xml:space="preserve">
+    <value>System.IO.FileSystemWatcher, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SearchOptionsForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

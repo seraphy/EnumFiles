@@ -43,5 +43,12 @@ namespace EnumFiles
             var reportView = new ReportView();
             reportView.Show(this);
         }
+
+        private void BtnEditFormat_Click(object sender, EventArgs e)
+        {
+            var editForm = new OutputFormatForm();
+            var ret = editForm.ShowDialog(this);
+            MessageBox.Show(ret.ToString());
+        }
     }
 }

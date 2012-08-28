@@ -190,6 +190,7 @@
             resources.ApplyResources(this.BtnEditFormat, "BtnEditFormat");
             this.BtnEditFormat.Name = "BtnEditFormat";
             this.BtnEditFormat.UseVisualStyleBackColor = true;
+            this.BtnEditFormat.Click += new System.EventHandler(this.BtnEditFormat_Click);
             // 
             // ButtonPanel
             // 

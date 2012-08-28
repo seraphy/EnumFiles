@@ -50,6 +50,12 @@
     <Compile Include="EnumFilesForm.Designer.cs">
       <DependentUpon>EnumFilesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="OutputFormatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutputFormatForm.Designer.cs">
+      <DependentUpon>OutputFormatForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReportView.cs">
@@ -66,6 +72,9 @@
     </Compile>
     <EmbeddedResource Include="EnumFilesForm.resx">
       <DependentUpon>EnumFilesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutputFormatForm.resx">
+      <DependentUpon>OutputFormatForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

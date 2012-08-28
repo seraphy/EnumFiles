@@ -42,8 +42,8 @@
             System.Windows.Forms.Label LblMinSize;
             System.Windows.Forms.Label LblMaxSize;
             System.Windows.Forms.GroupBox AttributesGroup;
-            System.Windows.Forms.GroupBox ExcludeGroup;
             System.Windows.Forms.TableLayoutPanel AttributesLayout;
+            System.Windows.Forms.GroupBox ExcludeGroup;
             this.DtStartLastModified = new System.Windows.Forms.DateTimePicker();
             this.DtStartCreation = new System.Windows.Forms.DateTimePicker();
             this.DtStartLastAccess = new System.Windows.Forms.DateTimePicker();
@@ -52,12 +52,6 @@
             this.DtEndLastAccess = new System.Windows.Forms.DateTimePicker();
             this.FileMinSize = new EnumFilesFormControls.FileSizePicker();
             this.FileMaxSize = new EnumFilesFormControls.FileSizePicker();
-            this.ExcludesTextArea = new System.Windows.Forms.TextBox();
-            this.ButtonPanel = new System.Windows.Forms.Panel();
-            this.InnerButtonPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.BtnOK = new System.Windows.Forms.Button();
-            this.BtnCancel = new System.Windows.Forms.Button();
-            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             this.CheckReadOnly = new System.Windows.Forms.CheckBox();
             this.CheckArchive = new System.Windows.Forms.CheckBox();
             this.CheckHidden = new System.Windows.Forms.CheckBox();
@@ -66,6 +60,12 @@
             this.CheckSparseFile = new System.Windows.Forms.CheckBox();
             this.CheckCompressed = new System.Windows.Forms.CheckBox();
             this.CheckEncrypted = new System.Windows.Forms.CheckBox();
+            this.ExcludesTextArea = new System.Windows.Forms.TextBox();
+            this.ButtonPanel = new System.Windows.Forms.Panel();
+            this.InnerButtonPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.BtnOK = new System.Windows.Forms.Button();
+            this.BtnCancel = new System.Windows.Forms.Button();
+            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             ContentLayout = new System.Windows.Forms.TableLayoutPanel();
             DatesGroup = new System.Windows.Forms.GroupBox();
             DatesGrid = new System.Windows.Forms.TableLayoutPanel();
@@ -79,19 +79,19 @@
             LblMinSize = new System.Windows.Forms.Label();
             LblMaxSize = new System.Windows.Forms.Label();
             AttributesGroup = new System.Windows.Forms.GroupBox();
-            ExcludeGroup = new System.Windows.Forms.GroupBox();
             AttributesLayout = new System.Windows.Forms.TableLayoutPanel();
+            ExcludeGroup = new System.Windows.Forms.GroupBox();
             ContentLayout.SuspendLayout();
             DatesGroup.SuspendLayout();
             DatesGrid.SuspendLayout();
             SizeGroup.SuspendLayout();
             FileSizeLayout.SuspendLayout();
             AttributesGroup.SuspendLayout();
+            AttributesLayout.SuspendLayout();
             ExcludeGroup.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
             this.InnerButtonPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
-            AttributesLayout.SuspendLayout();
             this.SuspendLayout();
             // 
             // ContentLayout
@@ -249,50 +249,6 @@
             AttributesGroup.Name = "AttributesGroup";
             AttributesGroup.TabStop = false;
             // 
-            // ExcludeGroup
-            // 
-            ExcludeGroup.Controls.Add(this.ExcludesTextArea);
-            resources.ApplyResources(ExcludeGroup, "ExcludeGroup");
-            ExcludeGroup.Name = "ExcludeGroup";
-            ExcludeGroup.TabStop = false;
-            // 
-            // ExcludesTextArea
-            // 
-            resources.ApplyResources(this.ExcludesTextArea, "ExcludesTextArea");
-            this.ExcludesTextArea.Name = "ExcludesTextArea";
-            // 
-            // ButtonPanel
-            // 
-            this.ButtonPanel.Controls.Add(this.InnerButtonPanel);
-            resources.ApplyResources(this.ButtonPanel, "ButtonPanel");
-            this.ButtonPanel.Name = "ButtonPanel";
-            // 
-            // InnerButtonPanel
-            // 
-            this.InnerButtonPanel.Controls.Add(this.BtnOK);
-            this.InnerButtonPanel.Controls.Add(this.BtnCancel);
-            resources.ApplyResources(this.InnerButtonPanel, "InnerButtonPanel");
-            this.InnerButtonPanel.Name = "InnerButtonPanel";
-            // 
-            // BtnOK
-            // 
-            this.BtnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            resources.ApplyResources(this.BtnOK, "BtnOK");
-            this.BtnOK.Name = "BtnOK";
-            this.BtnOK.UseVisualStyleBackColor = true;
-            // 
-            // BtnCancel
-            // 
-            this.BtnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            resources.ApplyResources(this.BtnCancel, "BtnCancel");
-            this.BtnCancel.Name = "BtnCancel";
-            this.BtnCancel.UseVisualStyleBackColor = true;
-            // 
-            // fileSystemWatcher1
-            // 
-            this.fileSystemWatcher1.EnableRaisingEvents = true;
-            this.fileSystemWatcher1.SynchronizingObject = this;
-            // 
             // AttributesLayout
             // 
             resources.ApplyResources(AttributesLayout, "AttributesLayout");
@@ -377,6 +333,52 @@
             this.CheckEncrypted.Name = "CheckEncrypted";
             this.CheckEncrypted.UseVisualStyleBackColor = true;
             // 
+            // ExcludeGroup
+            // 
+            ExcludeGroup.Controls.Add(this.ExcludesTextArea);
+            resources.ApplyResources(ExcludeGroup, "ExcludeGroup");
+            ExcludeGroup.Name = "ExcludeGroup";
+            ExcludeGroup.TabStop = false;
+            // 
+            // ExcludesTextArea
+            // 
+            resources.ApplyResources(this.ExcludesTextArea, "ExcludesTextArea");
+            this.ExcludesTextArea.Name = "ExcludesTextArea";
+            // 
+            // ButtonPanel
+            // 
+            this.ButtonPanel.Controls.Add(this.InnerButtonPanel);
+            resources.ApplyResources(this.ButtonPanel, "ButtonPanel");
+            this.ButtonPanel.Name = "ButtonPanel";
+            // 
+            // InnerButtonPanel
+            // 
+            this.InnerButtonPanel.Controls.Add(this.BtnOK);
+            this.InnerButtonPanel.Controls.Add(this.BtnCancel);
+            resources.ApplyResources(this.InnerButtonPanel, "InnerButtonPanel");
+            this.InnerButtonPanel.Name = "InnerButtonPanel";
+            // 
+            // BtnOK
+            // 
+            this.BtnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
+            resources.ApplyResources(this.BtnOK, "BtnOK");
+            this.BtnOK.Name = "BtnOK";
+            this.BtnOK.UseVisualStyleBackColor = true;
+            this.BtnOK.Click += new System.EventHandler(this.BtnOK_Click);
+            // 
+            // BtnCancel
+            // 
+            this.BtnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            resources.ApplyResources(this.BtnCancel, "BtnCancel");
+            this.BtnCancel.Name = "BtnCancel";
+            this.BtnCancel.UseVisualStyleBackColor = true;
+            this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
+            // 
+            // fileSystemWatcher1
+            // 
+            this.fileSystemWatcher1.EnableRaisingEvents = true;
+            this.fileSystemWatcher1.SynchronizingObject = this;
+            // 
             // SearchOptionsForm
             // 
             this.AcceptButton = this.BtnOK;
@@ -399,13 +401,13 @@
             FileSizeLayout.ResumeLayout(false);
             FileSizeLayout.PerformLayout();
             AttributesGroup.ResumeLayout(false);
+            AttributesLayout.ResumeLayout(false);
+            AttributesLayout.PerformLayout();
             ExcludeGroup.ResumeLayout(false);
             ExcludeGroup.PerformLayout();
             this.ButtonPanel.ResumeLayout(false);
             this.InnerButtonPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
-            AttributesLayout.ResumeLayout(false);
-            AttributesLayout.PerformLayout();
             this.ResumeLayout(false);
 
         }
