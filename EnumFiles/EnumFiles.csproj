@@ -50,6 +50,7 @@
     <Compile Include="EnumFilesForm.Designer.cs">
       <DependentUpon>EnumFilesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="OutputFormat.cs" />
     <Compile Include="OutputFormatForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +71,7 @@
     <Compile Include="SearchOptionsForm.Designer.cs">
       <DependentUpon>SearchOptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="StringUtils.cs" />
     <EmbeddedResource Include="EnumFilesForm.resx">
       <DependentUpon>EnumFilesForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +93,7 @@
     <EmbeddedResource Include="SearchOptionsForm.resx">
       <DependentUpon>SearchOptionsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\DataSources\OutputFormat.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -47,8 +47,18 @@ namespace EnumFiles
         private void BtnEditFormat_Click(object sender, EventArgs e)
         {
             var editForm = new OutputFormatForm();
+            var formData = new OutputFormat()
+            {
+                Header = "header-1",
+                EachItem = "item1",
+                EachItemAlternate = "item2",
+                Footer = "footer-1"
+            };
+            
+            editForm.outputFormatBindingSource.DataSource = formData;
+
             var ret = editForm.ShowDialog(this);
-            MessageBox.Show(ret.ToString());
+            MessageBox.Show(ret.ToString() + "\r\n" + formData);
         }
     }
 }

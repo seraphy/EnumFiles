@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.Panel FormatNamePanel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OutputFormatForm));
             System.Windows.Forms.Panel ButtonPanel;
@@ -38,17 +39,19 @@
             System.Windows.Forms.GroupBox EachItemOddGroup;
             System.Windows.Forms.GroupBox FooterGroup;
             this.ComboFormatName = new System.Windows.Forms.ComboBox();
-            this.BtnSave = new System.Windows.Forms.Button();
             this.BtnRemove = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.BtnSave = new System.Windows.Forms.Button();
             this.BtnOK = new System.Windows.Forms.Button();
             this.BtnCancel = new System.Windows.Forms.Button();
             this.TextHeader = new System.Windows.Forms.TextBox();
             this.TextEachItem = new System.Windows.Forms.TextBox();
             this.TextEachItemAlternate = new System.Windows.Forms.TextBox();
             this.TextFooter = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.ContantSplitPane = new System.Windows.Forms.SplitContainer();
             this.VariableItemList = new System.Windows.Forms.ListBox();
+            this.BtnInsertVariable = new System.Windows.Forms.Button();
+            this.outputFormatBindingSource = new System.Windows.Forms.BindingSource(this.components);
             FormatNamePanel = new System.Windows.Forms.Panel();
             ButtonPanel = new System.Windows.Forms.Panel();
             OkCancelButtonPanel = new System.Windows.Forms.FlowLayoutPanel();
@@ -59,17 +62,18 @@
             FooterGroup = new System.Windows.Forms.GroupBox();
             FormatNamePanel.SuspendLayout();
             ButtonPanel.SuspendLayout();
-            this.panel1.SuspendLayout();
             OkCancelButtonPanel.SuspendLayout();
             FormatLayout.SuspendLayout();
             HeaderGroup.SuspendLayout();
             EachItemGroup.SuspendLayout();
             EachItemOddGroup.SuspendLayout();
             FooterGroup.SuspendLayout();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ContantSplitPane)).BeginInit();
             this.ContantSplitPane.Panel1.SuspendLayout();
             this.ContantSplitPane.Panel2.SuspendLayout();
             this.ContantSplitPane.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.outputFormatBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // FormatNamePanel
@@ -92,14 +96,6 @@
             ButtonPanel.Controls.Add(this.BtnSave);
             ButtonPanel.Name = "ButtonPanel";
             // 
-            // BtnSave
-            // 
-            this.BtnSave.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            resources.ApplyResources(this.BtnSave, "BtnSave");
-            this.BtnSave.Name = "BtnSave";
-            this.BtnSave.UseVisualStyleBackColor = true;
-            this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
-            // 
             // BtnRemove
             // 
             this.BtnRemove.DialogResult = System.Windows.Forms.DialogResult.Cancel;
@@ -108,11 +104,13 @@
             this.BtnRemove.UseVisualStyleBackColor = true;
             this.BtnRemove.Click += new System.EventHandler(this.BtnRemove_Click);
             // 
-            // panel1
+            // BtnSave
             // 
-            this.panel1.Controls.Add(OkCancelButtonPanel);
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
+            this.BtnSave.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            resources.ApplyResources(this.BtnSave, "BtnSave");
+            this.BtnSave.Name = "BtnSave";
+            this.BtnSave.UseVisualStyleBackColor = true;
+            this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
             // 
             // OkCancelButtonPanel
             // 
@@ -153,12 +151,24 @@
             HeaderGroup.Name = "HeaderGroup";
             HeaderGroup.TabStop = false;
             // 
+            // TextHeader
+            // 
+            this.TextHeader.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.outputFormatBindingSource, "Header", true));
+            resources.ApplyResources(this.TextHeader, "TextHeader");
+            this.TextHeader.Name = "TextHeader";
+            // 
             // EachItemGroup
             // 
             EachItemGroup.Controls.Add(this.TextEachItem);
             resources.ApplyResources(EachItemGroup, "EachItemGroup");
             EachItemGroup.Name = "EachItemGroup";
             EachItemGroup.TabStop = false;
+            // 
+            // TextEachItem
+            // 
+            this.TextEachItem.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.outputFormatBindingSource, "EachItem", true));
+            resources.ApplyResources(this.TextEachItem, "TextEachItem");
+            this.TextEachItem.Name = "TextEachItem";
             // 
             // EachItemOddGroup
             // 
@@ -167,6 +177,12 @@
             EachItemOddGroup.Name = "EachItemOddGroup";
             EachItemOddGroup.TabStop = false;
             // 
+            // TextEachItemAlternate
+            // 
+            this.TextEachItemAlternate.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.outputFormatBindingSource, "EachItemAlternate", true));
+            resources.ApplyResources(this.TextEachItemAlternate, "TextEachItemAlternate");
+            this.TextEachItemAlternate.Name = "TextEachItemAlternate";
+            // 
             // FooterGroup
             // 
             FooterGroup.Controls.Add(this.TextFooter);
@@ -174,25 +190,17 @@
             FooterGroup.Name = "FooterGroup";
             FooterGroup.TabStop = false;
             // 
-            // TextHeader
-            // 
-            resources.ApplyResources(this.TextHeader, "TextHeader");
-            this.TextHeader.Name = "TextHeader";
-            // 
-            // TextEachItem
-            // 
-            resources.ApplyResources(this.TextEachItem, "TextEachItem");
-            this.TextEachItem.Name = "TextEachItem";
-            // 
-            // TextEachItemAlternate
-            // 
-            resources.ApplyResources(this.TextEachItemAlternate, "TextEachItemAlternate");
-            this.TextEachItemAlternate.Name = "TextEachItemAlternate";
-            // 
             // TextFooter
             // 
+            this.TextFooter.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.outputFormatBindingSource, "Footer", true));
             resources.ApplyResources(this.TextFooter, "TextFooter");
             this.TextFooter.Name = "TextFooter";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(OkCancelButtonPanel);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
             // 
             // ContantSplitPane
             // 
@@ -206,22 +214,23 @@
             // ContantSplitPane.Panel2
             // 
             this.ContantSplitPane.Panel2.Controls.Add(this.VariableItemList);
+            this.ContantSplitPane.Panel2.Controls.Add(this.BtnInsertVariable);
             // 
             // VariableItemList
             // 
             resources.ApplyResources(this.VariableItemList, "VariableItemList");
             this.VariableItemList.FormattingEnabled = true;
-            this.VariableItemList.Items.AddRange(new object[] {
-            resources.GetString("VariableItemList.Items"),
-            resources.GetString("VariableItemList.Items1"),
-            resources.GetString("VariableItemList.Items2"),
-            resources.GetString("VariableItemList.Items3"),
-            resources.GetString("VariableItemList.Items4"),
-            resources.GetString("VariableItemList.Items5"),
-            resources.GetString("VariableItemList.Items6"),
-            resources.GetString("VariableItemList.Items7"),
-            resources.GetString("VariableItemList.Items8")});
             this.VariableItemList.Name = "VariableItemList";
+            // 
+            // BtnInsertVariable
+            // 
+            resources.ApplyResources(this.BtnInsertVariable, "BtnInsertVariable");
+            this.BtnInsertVariable.Name = "BtnInsertVariable";
+            this.BtnInsertVariable.UseVisualStyleBackColor = true;
+            // 
+            // outputFormatBindingSource
+            // 
+            this.outputFormatBindingSource.DataSource = typeof(EnumFiles.OutputFormat);
             // 
             // OutputFormatForm
             // 
@@ -239,7 +248,6 @@
             FormatNamePanel.ResumeLayout(false);
             FormatNamePanel.PerformLayout();
             ButtonPanel.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
             OkCancelButtonPanel.ResumeLayout(false);
             OkCancelButtonPanel.PerformLayout();
             FormatLayout.ResumeLayout(false);
@@ -251,10 +259,12 @@
             EachItemOddGroup.PerformLayout();
             FooterGroup.ResumeLayout(false);
             FooterGroup.PerformLayout();
+            this.panel1.ResumeLayout(false);
             this.ContantSplitPane.Panel1.ResumeLayout(false);
             this.ContantSplitPane.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ContantSplitPane)).EndInit();
             this.ContantSplitPane.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.outputFormatBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -273,5 +283,7 @@
         private System.Windows.Forms.TextBox TextFooter;
         private System.Windows.Forms.SplitContainer ContantSplitPane;
         private System.Windows.Forms.ListBox VariableItemList;
+        private System.Windows.Forms.Button BtnInsertVariable;
+        public System.Windows.Forms.BindingSource outputFormatBindingSource;
     }
 }
