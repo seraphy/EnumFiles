@@ -29,6 +29,9 @@ namespace EnumFiles.Gui
 
         private void BtnSave_Click(object sender, EventArgs e)
         {
+            var of = new OutputFormat();
+            of.Header = "header:" + (DateTime.Now).ToShortDateString();
+            outputFormatBindingSource.DataSource = of;
             MessageBox.Show("Save");
         }
 
