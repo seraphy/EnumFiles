@@ -2,6 +2,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EnumFiles;
 using EnumFiles.Utils;
+using System.Diagnostics;
+using EnumFiles.Model;
+using System.Reflection;
+using System.Collections.Generic;
 
 namespace UnitTest
 {

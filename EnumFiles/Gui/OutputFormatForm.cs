@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EnumFiles.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,6 +34,9 @@ namespace EnumFiles.Gui
 
         private void BtnRemove_Click(object sender, EventArgs e)
         {
+            var of = (OutputFormat)outputFormatBindingSource.DataSource;
+            of.Footer = "Foooter!!";
+
             MessageBox.Show("remove");
         }
     }

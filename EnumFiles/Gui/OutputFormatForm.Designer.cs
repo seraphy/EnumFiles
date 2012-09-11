@@ -98,7 +98,6 @@
             // 
             // BtnRemove
             // 
-            this.BtnRemove.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             resources.ApplyResources(this.BtnRemove, "BtnRemove");
             this.BtnRemove.Name = "BtnRemove";
             this.BtnRemove.UseVisualStyleBackColor = true;
@@ -106,7 +105,7 @@
             // 
             // BtnSave
             // 
-            this.BtnSave.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.BtnSave.Cursor = System.Windows.Forms.Cursors.Arrow;
             resources.ApplyResources(this.BtnSave, "BtnSave");
             this.BtnSave.Name = "BtnSave";
             this.BtnSave.UseVisualStyleBackColor = true;

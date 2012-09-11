@@ -9,6 +9,10 @@ using System.Windows.Forms;
 
 namespace EnumFilesFormControls
 {
+    /// <summary>
+    /// ファイルサイズの指定を行うための複合コントロール.
+    /// 有効・無効を示すチェックボックスと、数値と、単位のドロップダウンからなる.
+    /// </summary>
     public partial class FileSizePicker : UserControl
     {
         public FileSizePicker()
