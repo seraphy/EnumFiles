@@ -54,9 +54,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="OutputFormatTest.cs" />
+    <Compile Include="model\OutputFormatTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StringUtilsTest.cs" />
+    <Compile Include="utils\StringUtilsTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EnumFilesFormControls\EnumFilesFormControls.csproj">

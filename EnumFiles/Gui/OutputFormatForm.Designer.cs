@@ -1,4 +1,4 @@
-﻿namespace EnumFiles
+﻿namespace EnumFiles.Gui
 {
     partial class OutputFormatForm
     {
@@ -44,6 +44,7 @@
             this.BtnOK = new System.Windows.Forms.Button();
             this.BtnCancel = new System.Windows.Forms.Button();
             this.TextHeader = new System.Windows.Forms.TextBox();
+            this.outputFormatBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.TextEachItem = new System.Windows.Forms.TextBox();
             this.TextEachItemAlternate = new System.Windows.Forms.TextBox();
             this.TextFooter = new System.Windows.Forms.TextBox();
@@ -51,7 +52,6 @@
             this.ContantSplitPane = new System.Windows.Forms.SplitContainer();
             this.VariableItemList = new System.Windows.Forms.ListBox();
             this.BtnInsertVariable = new System.Windows.Forms.Button();
-            this.outputFormatBindingSource = new System.Windows.Forms.BindingSource(this.components);
             FormatNamePanel = new System.Windows.Forms.Panel();
             ButtonPanel = new System.Windows.Forms.Panel();
             OkCancelButtonPanel = new System.Windows.Forms.FlowLayoutPanel();
@@ -65,6 +65,7 @@
             OkCancelButtonPanel.SuspendLayout();
             FormatLayout.SuspendLayout();
             HeaderGroup.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.outputFormatBindingSource)).BeginInit();
             EachItemGroup.SuspendLayout();
             EachItemOddGroup.SuspendLayout();
             FooterGroup.SuspendLayout();
@@ -73,7 +74,6 @@
             this.ContantSplitPane.Panel1.SuspendLayout();
             this.ContantSplitPane.Panel2.SuspendLayout();
             this.ContantSplitPane.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.outputFormatBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // FormatNamePanel
@@ -157,6 +157,10 @@
             resources.ApplyResources(this.TextHeader, "TextHeader");
             this.TextHeader.Name = "TextHeader";
             // 
+            // outputFormatBindingSource
+            // 
+            this.outputFormatBindingSource.DataSource = typeof(EnumFiles.Model.OutputFormat);
+            // 
             // EachItemGroup
             // 
             EachItemGroup.Controls.Add(this.TextEachItem);
@@ -228,10 +232,6 @@
             this.BtnInsertVariable.Name = "BtnInsertVariable";
             this.BtnInsertVariable.UseVisualStyleBackColor = true;
             // 
-            // outputFormatBindingSource
-            // 
-            this.outputFormatBindingSource.DataSource = typeof(EnumFiles.OutputFormat);
-            // 
             // OutputFormatForm
             // 
             this.AcceptButton = this.BtnOK;
@@ -253,6 +253,7 @@
             FormatLayout.ResumeLayout(false);
             HeaderGroup.ResumeLayout(false);
             HeaderGroup.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.outputFormatBindingSource)).EndInit();
             EachItemGroup.ResumeLayout(false);
             EachItemGroup.PerformLayout();
             EachItemOddGroup.ResumeLayout(false);
@@ -264,7 +265,6 @@
             this.ContantSplitPane.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ContantSplitPane)).EndInit();
             this.ContantSplitPane.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.outputFormatBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

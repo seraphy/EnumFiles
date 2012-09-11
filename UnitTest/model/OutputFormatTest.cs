@@ -4,6 +4,7 @@ using EnumFiles;
 using System.Xml;
 using System.Xml.Serialization;
 using System.IO;
+using EnumFiles.Model;
 
 namespace UnitTest
 {

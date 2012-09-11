@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace EnumFiles
+namespace EnumFiles.Gui
 {
     public partial class OutputFormatForm : Form
     {

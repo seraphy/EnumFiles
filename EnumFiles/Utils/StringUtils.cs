@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace EnumFiles
+namespace EnumFiles.Utils
 {
     /// <summary>
     /// 文字列のユーテリティ

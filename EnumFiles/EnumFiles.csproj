@@ -44,38 +44,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EnumFilesForm.cs">
+    <Compile Include="Gui\EnumFilesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EnumFilesForm.Designer.cs">
+    <Compile Include="Gui\EnumFilesForm.Designer.cs">
       <DependentUpon>EnumFilesForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="OutputFormat.cs" />
-    <Compile Include="OutputFormatForm.cs">
+    <Compile Include="Model\OutputFormat.cs" />
+    <Compile Include="Gui\OutputFormatForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OutputFormatForm.Designer.cs">
+    <Compile Include="Gui\OutputFormatForm.Designer.cs">
       <DependentUpon>OutputFormatForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReportView.cs">
+    <Compile Include="Gui\ReportView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ReportView.Designer.cs">
+    <Compile Include="Gui\ReportView.Designer.cs">
       <DependentUpon>ReportView.cs</DependentUpon>
     </Compile>
-    <Compile Include="SearchOptionsForm.cs">
+    <Compile Include="Gui\SearchOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SearchOptionsForm.Designer.cs">
+    <Compile Include="Gui\SearchOptionsForm.Designer.cs">
       <DependentUpon>SearchOptionsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="StringUtils.cs" />
-    <EmbeddedResource Include="EnumFilesForm.resx">
+    <Compile Include="Utils\StringUtils.cs" />
+    <EmbeddedResource Include="Gui\EnumFilesForm.resx">
       <DependentUpon>EnumFilesForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OutputFormatForm.resx">
+    <EmbeddedResource Include="Gui\OutputFormatForm.resx">
       <DependentUpon>OutputFormatForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -87,10 +87,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ReportView.resx">
+    <EmbeddedResource Include="Gui\ReportView.resx">
       <DependentUpon>ReportView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SearchOptionsForm.resx">
+    <EmbeddedResource Include="Gui\SearchOptionsForm.resx">
       <DependentUpon>SearchOptionsForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\DataSources\OutputFormat.datasource" />

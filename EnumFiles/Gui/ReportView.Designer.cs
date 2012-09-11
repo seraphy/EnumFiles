@@ -1,4 +1,4 @@
-﻿namespace EnumFiles
+﻿namespace EnumFiles.Gui
 {
     partial class ReportView
     {

@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EnumFiles;
+using EnumFiles.Utils;
 
 namespace UnitTest
 {
