@@ -8,6 +8,9 @@ using System.Windows.Forms;
 
 namespace EnumFiles
 {
+    /// <summary>
+    /// アプリケーションクラス
+    /// </summary>
     public static class EnumFileApp
     {
         /// <summary>
