@@ -14,7 +14,7 @@ namespace EnumFiles.Model
     /// </summary>
     [Serializable]
     [XmlRoot("OutputFormat")]
-    public class OutputFormat : INotifyPropertyChanged
+    public sealed class OutputFormat : INotifyPropertyChanged
     {
         #region Fields
 
@@ -130,7 +130,7 @@ namespace EnumFiles.Model
         /// イベントハンドラに変更を通知する.
         /// </summary>
         /// <param name="propertyName"></param>
-        protected virtual void OnPropertyChanged(string propertyName)
+        private void OnPropertyChanged(string propertyName)
         {
             PropertyChangedEventHandler handler = this.PropertyChanged;
             if (handler != null)
@@ -165,7 +165,7 @@ namespace EnumFiles.Model
         /// 複製する.
         /// </summary>
         /// <returns>複製されたオブジェクト</returns>
-        public virtual OutputFormat duplicate()
+        public OutputFormat duplicate()
         {
             return new OutputFormat(this);
         }
@@ -175,7 +175,7 @@ namespace EnumFiles.Model
         /// </summary>
         /// <param name="o">比較対象、null可</param>
         /// <returns>内容が一致すればfalse、一致しなければtrue</returns>
-        public virtual bool IsModified(OutputFormat o)
+        public bool IsModified(OutputFormat o)
         {
             if ((object)o != null)
             {

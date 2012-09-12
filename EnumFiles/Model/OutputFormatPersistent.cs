@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Windows.Forms;
 using System.Xml.Serialization;
 
 namespace EnumFiles.Model
@@ -28,49 +27,6 @@ namespace EnumFiles.Model
         /// </summary>
         private static readonly XmlSerializer xmlSerializer = new XmlSerializer(typeof(OutputFormat));
 
-        /// <summary>
-        /// アプリケーション固有、ユーザーごとのOutputFormat定義を取得する.
-        /// ユーザー定義が優先される.
-        /// </summary>
-        /// <returns>OutputFormatオブジェクトの列挙</returns>
-        public static IEnumerable<OutputFormat> Load()
-        {
-            string[] dirs =
-            {
-                Path.Combine(Application.StartupPath, DIR_NAME),
-                Path.Combine(Application.UserAppDataPath, DIR_NAME)
-            };
-            var dict = new Dictionary<string, OutputFormat>();
-            foreach (OutputFormat of in Load(dirs))
-            {
-                // もし同名のものがあれば上書きする.
-                // StartupPath、UserAppDataPathの順に走査するため、
-                // UserAppDataPathが優先されることになる.
-                dict[of.Name] = of;
-            }
-            return dict.Values;
-        }
-
-        /// <summary>
-        /// ユーザー用ディレクトリにOutputFormatを保存する.
-        /// </summary>
-        /// <param name="of"></param>
-        public static void Save(OutputFormat of)
-        {
-            var dirInfo = new DirectoryInfo(Path.Combine(Application.UserAppDataPath, DIR_NAME));
-            Save(of, dirInfo);
-        }
-
-        /// <summary>
-        /// ユーザー用ディレクトリからOutputFormatを削除する.
-        /// </summary>
-        /// <param name="of"></param>
-        /// <returns>削除された場合はtrue、削除できない場合はfalse</returns>
-        public static bool Delete(OutputFormat of)
-        {
-            var dirInfo = new DirectoryInfo(Path.Combine(Application.UserAppDataPath, DIR_NAME));
-            return Delete(of, dirInfo);
-        }
 
         /// <summary>
         /// フォルダを複数指定し、そのフォルダ下にある、すべてのOutputFormatを読み取って返す.

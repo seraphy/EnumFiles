@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="model\OutputFormatTest.cs" />
     <Compile Include="model\OutputFormatPersistentTest.cs" />
+    <Compile Include="model\OutputFormatManagerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="utils\StringUtilsTest.cs" />
   </ItemGroup>
