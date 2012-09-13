@@ -19,12 +19,15 @@ namespace EnumFiles.Gui
 
         private void EnumFilesForm_Load(object sender, EventArgs e)
         {
+            // 出力フォーマットをロードする
+            var outputFormatMgr = EnumFileApp.OutputFormatManager;
+            outputFormatMgr.Load();
 
-        }
+            // 出力フォーマットの選択コンボボックスに設定する
+            var outputFormats = new List<OutputFormat>();
+            outputFormats.AddRange(outputFormatMgr.AllItems);
 
-        private void SearchConditionGroup_Enter(object sender, EventArgs e)
-        {
-
+            ComboOutputFormat.DataSource = outputFormats;
         }
 
         private void BtnEdit_Click(object sender, EventArgs e)
@@ -34,6 +37,22 @@ namespace EnumFiles.Gui
             MessageBox.Show(ret.ToString());
         }
 
+        /// <summary>
+        /// 出力フォーマットの編集ボタンのハンドラ
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void BtnEditFormat_Click(object sender, EventArgs e)
+        {
+            var outputFormat = ComboOutputFormat.SelectedItem as OutputFormat;
+
+            var editForm = new OutputFormatForm();
+            editForm.Current = outputFormat;
+
+            var ret = editForm.ShowDialog(this);
+            MessageBox.Show(ret.ToString() + "/" + editForm.Current);
+        }
+
         private void BtnCancel_Click(object sender, EventArgs e)
         {
             Close();
@@ -41,25 +60,11 @@ namespace EnumFiles.Gui
 
         private void BtnRun_Click(object sender, EventArgs e)
         {
-            var reportView = new ReportView();
-            reportView.Show(this);
-        }
-
-        private void BtnEditFormat_Click(object sender, EventArgs e)
-        {
-            var editForm = new OutputFormatForm();
-            var formData = new OutputFormat()
+            if (CheckShowResults.Checked)
             {
-                Header = "header-1",
-                EachItem = "item1",
-                EachItemAlternate = "item2",
-                Footer = "footer-1"
-            };
-            
-            editForm.outputFormatBindingSource.DataSource = formData;
-
-            var ret = editForm.ShowDialog(this);
-            MessageBox.Show(ret.ToString() + "\r\n" + formData);
+                var reportView = new ReportView();
+                reportView.Show(this);
+            }
         }
     }
 }

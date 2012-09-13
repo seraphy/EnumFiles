@@ -83,8 +83,7 @@ namespace EnumFiles.Model
         public static void Save(OutputFormat of, DirectoryInfo dirInfo)
         {
             if (of == null || dirInfo == null) throw new ArgumentException("nullは指定できません");
-            string defname = "template-" + DateTime.Now.ToString("yyyyMMdd-HHmmss");
-            string fileName = GetSafeName(of.Name, defname) + "." + FILE_EXT;
+            string fileName = GetRealFileName(of.Name) + "." + FILE_EXT;
 
             // ディレクトリが存在しなければ作成する.
             if (!dirInfo.Exists)
@@ -113,8 +112,7 @@ namespace EnumFiles.Model
         public static bool Delete(OutputFormat of, DirectoryInfo dirInfo)
         {
             if (of == null || dirInfo == null) throw new ArgumentException("nullは指定できません");
-            string defname = "template-" + DateTime.Now.ToString("yyyyMMdd-HHmmss");
-            string fileName = GetSafeName(of.Name, defname) + "." + FILE_EXT;
+            string fileName = GetRealFileName(of.Name) + "." + FILE_EXT;
 
             var path = Path.Combine(dirInfo.FullName, fileName);
             System.Diagnostics.Trace.WriteLine("Delete: " + path);
@@ -134,17 +132,17 @@ namespace EnumFiles.Model
         private static readonly char[] INVALID_CHARS = "\\|;:<>,\"/*?.".ToCharArray();
 
         /// <summary>
-        /// 名称からファイル名をマッピングする.
+        /// 名称から実ファイル名をマッピングする.
         /// </summary>
         /// <param name="name">名称</param>
-        /// <param name="defname">名称省略時に設定するファイル名</param>
         /// <returns>マッピングされたファイル名</returns>
-        public static string GetSafeName(string name, string defname = "")
+        public static string GetRealFileName(string name)
         {
             if (string.IsNullOrWhiteSpace(name))
             {
-                return defname;
+                return "no-name";
             }
+
             name = name.Trim();
             foreach (char ch in INVALID_CHARS)
             {
@@ -165,7 +163,7 @@ namespace EnumFiles.Model
                 var dupchk = new Dictionary<string, OutputFormat>();
                 foreach (OutputFormat fmt in fmts)
                 {
-                    string fileName = GetSafeName(fmt.Name);
+                    string fileName = GetRealFileName(fmt.Name);
                     OutputFormat dupItem;
                     if (dupchk.TryGetValue(fileName, out dupItem))
                     {

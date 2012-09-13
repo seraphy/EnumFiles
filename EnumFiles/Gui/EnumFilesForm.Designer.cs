@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.Label LblDirectory;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EnumFilesForm));
             System.Windows.Forms.Label LblFileName;
@@ -52,6 +53,7 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnRun = new System.Windows.Forms.Button();
             this.BtnCancel = new System.Windows.Forms.Button();
+            this.outputFormatBindingSource = new System.Windows.Forms.BindingSource(this.components);
             LblDirectory = new System.Windows.Forms.Label();
             LblFileName = new System.Windows.Forms.Label();
             LblOtherConditions = new System.Windows.Forms.Label();
@@ -65,6 +67,7 @@
             SearchConditionTableLayout.SuspendLayout();
             ButtonPanel.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.outputFormatBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // LblDirectory
@@ -94,7 +97,6 @@
             resources.ApplyResources(SearchConditionGroup, "SearchConditionGroup");
             SearchConditionGroup.Name = "SearchConditionGroup";
             SearchConditionGroup.TabStop = false;
-            SearchConditionGroup.Enter += new System.EventHandler(this.SearchConditionGroup_Enter);
             // 
             // PatternSelectionGroup
             // 
@@ -180,6 +182,7 @@
             // 
             // ComboOutputFormat
             // 
+            this.ComboOutputFormat.DisplayMember = "Name";
             resources.ApplyResources(this.ComboOutputFormat, "ComboOutputFormat");
             this.ComboOutputFormat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboOutputFormat.FormattingEnabled = true;
@@ -227,6 +230,10 @@
             this.BtnCancel.UseVisualStyleBackColor = true;
             this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
+            // outputFormatBindingSource
+            // 
+            this.outputFormatBindingSource.DataSource = typeof(EnumFiles.Model.OutputFormat);
+            // 
             // EnumFilesForm
             // 
             this.AcceptButton = this.BtnRun;
@@ -245,6 +252,7 @@
             ButtonPanel.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.outputFormatBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -266,6 +274,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button BtnRun;
         private System.Windows.Forms.Button BtnCancel;
+        private System.Windows.Forms.BindingSource outputFormatBindingSource;
     }
 }
 

@@ -152,6 +152,10 @@ namespace EnumFiles.Model
                 }
             }
 
+            // 埋め込み設定を登録する
+            caches.Add(CreateDefaultFormat("text"));
+            caches.Add(CreateDefaultFormat("xml"));
+
             // 名前で設定をまとめる
             // 同一名がある場合は後方のもので上書きする.
             foreach (var cache in caches)
@@ -161,6 +165,42 @@ namespace EnumFiles.Model
 
                 dict[name] = cache;
             }
+        }
+
+        /// <summary>
+        /// 既定の出力フォーマット(固定)を生成する.
+        /// </summary>
+        /// <returns></returns>
+        protected virtual OutputFormatHolder CreateDefaultFormat(string typ)
+        {
+            OutputFormat of;
+            switch (typ)
+            {
+                case "xml":
+                    of = new OutputFormat()
+                    {
+                        Name = "Simple XML",
+                        Header = "<files>",
+                        EachItem = "<file sha1=\"%SHA1:XML%\">%PATH:XML%</file>",
+                        Footer = "</files>"
+                    };
+                    break;
+
+                case "text":
+                default:
+                    of = new OutputFormat()
+                    {
+                        Name = "Plain Text",
+                        EachItem = "%PATH%\t%SHA1%"
+                    };
+                    break;
+            }
+            return new OutputFormatHolder()
+                {
+                    directoryInfo = new PersistentDirectoryInfo(".", false),
+                    original = of,
+                    current = of.duplicate()
+                };
         }
 
         /// <summary>
@@ -229,6 +269,26 @@ namespace EnumFiles.Model
                     Update(value);
                 }
             }
+        }
+
+        /// <summary>
+        /// 指定した出力フォーマットが変更されているか判定する.
+        /// 指定された名前のオリジナルの出力フォーマットとの差異を比較する.
+        /// 指定された名前が、まだ保持されていない場合は変更ありとみなす.
+        /// </summary>
+        /// <param name="of">現在の出力フォーマット(名前による区別)</param>
+        /// <returns>変更の有無</returns>
+        public virtual bool IsModified(OutputFormat of)
+        {
+            if (of == null) return true;
+
+            string name = of.Name;
+            OutputFormatHolder holder;
+            if (dict.TryGetValue(name, out holder))
+            {
+                return of.IsModified(holder.original);
+            }
+            return true;
         }
 
         /// <summary>
